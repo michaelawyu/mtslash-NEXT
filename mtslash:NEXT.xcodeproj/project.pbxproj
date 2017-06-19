@@ -28,6 +28,14 @@
 		095D8A081ED3FC3D00C18B4C /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D8A071ED3FC3D00C18B4C /* password.png */; };
 		095D8A0A1ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D8A091ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift */; };
 		095D8A0C1ED4D3A700C18B4C /* WebDocumentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D8A0B1ED4D3A700C18B4C /* WebDocumentPageViewController.swift */; };
+		09C02C321EF5836F00CF111F /* AccessPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C311EF5836F00CF111F /* AccessPoints.swift */; };
+		09C02C351EF6256500CF111F /* stdAPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 09C02C341EF6256500CF111F /* stdAPData.json */; };
+		09C02C3B1EF6622F00CF111F /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C3A1EF6622F00CF111F /* RequestHelper.swift */; };
+		09C02C3D1EF6680A00CF111F /* altAPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 09C02C3C1EF6680A00CF111F /* altAPData.json */; };
+		09C02C3F1EF670A100CF111F /* UserAuthenticationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C3E1EF670A100CF111F /* UserAuthenticationStatus.swift */; };
+		09C02C411EF67C6A00CF111F /* PasswordInputPageViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C401EF67C6A00CF111F /* PasswordInputPageViewControllerExt.swift */; };
+		09C02C431EF6BFF900CF111F /* ResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C421EF6BFF900CF111F /* ResponseHelper.swift */; };
+		09C02C461EF7763800CF111F /* AuthenticationCompletedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C451EF7763800CF111F /* AuthenticationCompletedPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +62,14 @@
 		095D8A071ED3FC3D00C18B4C /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 		095D8A091ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromUsernameInputPageToPasswordInputPage.swift; sourceTree = "<group>"; };
 		095D8A0B1ED4D3A700C18B4C /* WebDocumentPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDocumentPageViewController.swift; sourceTree = "<group>"; };
+		09C02C311EF5836F00CF111F /* AccessPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessPoints.swift; sourceTree = "<group>"; };
+		09C02C341EF6256500CF111F /* stdAPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stdAPData.json; sourceTree = "<group>"; };
+		09C02C3A1EF6622F00CF111F /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		09C02C3C1EF6680A00CF111F /* altAPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = altAPData.json; sourceTree = "<group>"; };
+		09C02C3E1EF670A100CF111F /* UserAuthenticationStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthenticationStatus.swift; sourceTree = "<group>"; };
+		09C02C401EF67C6A00CF111F /* PasswordInputPageViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordInputPageViewControllerExt.swift; sourceTree = "<group>"; };
+		09C02C421EF6BFF900CF111F /* ResponseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHelper.swift; sourceTree = "<group>"; };
+		09C02C451EF7763800CF111F /* AuthenticationCompletedPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCompletedPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				09026BC01ED3A4FE0047EEFF /* Main.storyboard */,
+				09C02C331EF585BE00CF111F /* Data */,
 				0911746D1ED50C76009052A7 /* Misc */,
 				09026BD11ED3C03B0047EEFF /* Res */,
 				09026BBC1ED3A4FE0047EEFF /* AppDelegate.swift */,
-				09026BBE1ED3A4FE0047EEFF /* CoverPageViewController.swift */,
-				095D89FA1ED3D40100C18B4C /* UsernameInputPageViewController.swift */,
-				095D8A051ED3F67B00C18B4C /* PasswordInputPageViewController.swift */,
-				095D8A0B1ED4D3A700C18B4C /* WebDocumentPageViewController.swift */,
+				09C02C441EF7755A00CF111F /* ViewControllers */,
 				095D8A001ED3E6B900C18B4C /* Custom Segues */,
 				09026BC61ED3A4FE0047EEFF /* Assets.xcassets */,
 				09026BC81ED3A4FE0047EEFF /* LaunchScreen.storyboard */,
@@ -121,6 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				091174701ED51004009052A7 /* UserCredentials.swift */,
+				09C02C3E1EF670A100CF111F /* UserAuthenticationStatus.swift */,
+				09C02C3A1EF6622F00CF111F /* RequestHelper.swift */,
+				09C02C421EF6BFF900CF111F /* ResponseHelper.swift */,
+				09C02C311EF5836F00CF111F /* AccessPoints.swift */,
 				091174721ED519A2009052A7 /* DocumentViewerHelper.swift */,
 			);
 			name = Misc;
@@ -134,6 +152,28 @@
 				091174741ED523E3009052A7 /* fromPasswordInputPageToUsernameInputPage.swift */,
 			);
 			name = "Custom Segues";
+			sourceTree = "<group>";
+		};
+		09C02C331EF585BE00CF111F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				09C02C341EF6256500CF111F /* stdAPData.json */,
+				09C02C3C1EF6680A00CF111F /* altAPData.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		09C02C441EF7755A00CF111F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09026BBE1ED3A4FE0047EEFF /* CoverPageViewController.swift */,
+				095D89FA1ED3D40100C18B4C /* UsernameInputPageViewController.swift */,
+				095D8A051ED3F67B00C18B4C /* PasswordInputPageViewController.swift */,
+				09C02C401EF67C6A00CF111F /* PasswordInputPageViewControllerExt.swift */,
+				095D8A0B1ED4D3A700C18B4C /* WebDocumentPageViewController.swift */,
+				09C02C451EF7763800CF111F /* AuthenticationCompletedPageViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +238,7 @@
 			files = (
 				095D8A041ED3F48900C18B4C /* password_input_page_background_sherlock.jpg in Resources */,
 				09026BCA1ED3A4FE0047EEFF /* LaunchScreen.storyboard in Resources */,
+				09C02C3D1EF6680A00CF111F /* altAPData.json in Resources */,
 				095D8A081ED3FC3D00C18B4C /* password.png in Resources */,
 				09026BD51ED3C1F60047EEFF /* Credits in Resources */,
 				09026BC71ED3A4FE0047EEFF /* Assets.xcassets in Resources */,
@@ -205,6 +246,7 @@
 				095D89FF1ED3E4D900C18B4C /* id_card.png in Resources */,
 				095D89FD1ED3E44600C18B4C /* username_input_page_background_st.jpg in Resources */,
 				09026BC21ED3A4FE0047EEFF /* Main.storyboard in Resources */,
+				09C02C351EF6256500CF111F /* stdAPData.json in Resources */,
 				095D89F91ED3C97700C18B4C /* coverImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,16 +259,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				095D8A021ED3E6D000C18B4C /* fromCoverPageToUsernameInputPage.swift in Sources */,
+				09C02C3B1EF6622F00CF111F /* RequestHelper.swift in Sources */,
 				095D8A061ED3F67B00C18B4C /* PasswordInputPageViewController.swift in Sources */,
 				091174731ED519A2009052A7 /* DocumentViewerHelper.swift in Sources */,
 				091174751ED523E3009052A7 /* fromPasswordInputPageToUsernameInputPage.swift in Sources */,
+				09C02C411EF67C6A00CF111F /* PasswordInputPageViewControllerExt.swift in Sources */,
+				09C02C321EF5836F00CF111F /* AccessPoints.swift in Sources */,
 				091174711ED51004009052A7 /* UserCredentials.swift in Sources */,
 				095D89FB1ED3D40100C18B4C /* UsernameInputPageViewController.swift in Sources */,
 				09026BBF1ED3A4FE0047EEFF /* CoverPageViewController.swift in Sources */,
 				09026BC51ED3A4FE0047EEFF /* mtslash_NEXT.xcdatamodeld in Sources */,
 				09026BBD1ED3A4FE0047EEFF /* AppDelegate.swift in Sources */,
+				09C02C3F1EF670A100CF111F /* UserAuthenticationStatus.swift in Sources */,
 				095D8A0A1ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift in Sources */,
+				09C02C431EF6BFF900CF111F /* ResponseHelper.swift in Sources */,
 				095D8A0C1ED4D3A700C18B4C /* WebDocumentPageViewController.swift in Sources */,
+				09C02C461EF7763800CF111F /* AuthenticationCompletedPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Z73D5W9HK;
 				INFOPLIST_FILE = "mtslash:NEXT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michaelawyu.mtslash-NEXT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Z73D5W9HK;
 				INFOPLIST_FILE = "mtslash:NEXT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michaelawyu.mtslash-NEXT";
 				PRODUCT_NAME = "$(TARGET_NAME)";

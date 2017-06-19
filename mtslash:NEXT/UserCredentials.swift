@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
-// A class of static funcs for checking the validity of user credentials (username, password, etc.)
+// A class containing user credentials and static funcs for checking the validity of user credentials (username, password, etc.)
 
 class UserCredentials {
     
@@ -17,6 +18,7 @@ class UserCredentials {
     
     var username : String? = nil
     var password : String? = nil
+    var cookies : [String : String]? = nil
     
     // A func for checking the validity of username
     static func checkValidityOfUsername(username : String?) -> Bool {
@@ -39,7 +41,8 @@ class UserCredentials {
         if password!.characters.count > 20 {
             return false
         }
-        
         return true
     }
+    
+
 }

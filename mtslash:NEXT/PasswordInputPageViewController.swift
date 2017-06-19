@@ -51,6 +51,42 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func submitButtonPressed(_ sender: Any) {
+        
+        func authenticationViaStandardAccessPointHelper() {
+            
+            // Select standard access point for user authentication
+            AccessPoints.selectedAccessPoint = AccessPoints.standardAccessPoint
+            
+            // Authenticate user credentials
+            authenticateUser()
+        }
+        
+        passwordCheckHelper(completionHandler: authenticationViaStandardAccessPointHelper)
+    }
+    
+    @IBAction func submitViaProxyButtonPressed(_ sender: Any) {
+        
+        func authenticationViaAlternateAccessPointHelper() {
+            
+            // Select alternate access point for user authentication
+            AccessPoints.selectedAccessPoint = AccessPoints.alternateAccessPoint
+            
+            // Authenticate user credentials
+            authenticateUser()
+        }
+        
+        passwordCheckHelper(completionHandler: authenticationViaAlternateAccessPointHelper)
+    }
+    
+    @IBAction func accountHelpButtonPressed(_ sender: Any) {
+        DocumentViewerHelper.initDocumentViewer(viewController: self, URL: URL(string: "http://www.mtslash.org")!, title: "账户问题帮助")
+    }
+    
+    @IBAction func changeAccountButtonPressed(_ sender: Any) {
+    }
+    
+    // A convenient func for password checking and initiation of authentication process
+    func passwordCheckHelper(completionHandler: () -> ()) {
         let password = passwordInputTextField.text
         
         // Check if password is valid
@@ -62,19 +98,11 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
             invalidPasswordAlertController.addAction(OKAction)
             self.present(invalidPasswordAlertController, animated: true, completion: nil)
         } else {
-            // Authenticate credentials with server
             
-            // Transit to the next page
+            // Set up password for current user
+            UserCredentials.currentUser.password = password
+            
+            completionHandler()
         }
-    }
-    
-    @IBAction func submitViaProxyButtonPressed(_ sender: Any) {
-    }
-    
-    @IBAction func accountHelpButtonPressed(_ sender: Any) {
-        DocumentViewerHelper.initDocumentViewer(viewController: self, URL: URL(string: "http://www.mtslash.org")!, title: "账户问题帮助")
-    }
-    
-    @IBAction func changeAccountButtonPressed(_ sender: Any) {
     }
 }
