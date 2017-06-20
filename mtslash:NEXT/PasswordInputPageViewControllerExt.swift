@@ -12,7 +12,6 @@ import UIKit
 extension PasswordInputPageViewController {
     
     func authenticateUser() {
-        
         // Freeze current page
         let authenticationInProgressAlertController = UIAlertController(title: "正在验证您的账户信息", message: nil, preferredStyle: UIAlertControllerStyle.alert)
         self.present(authenticationInProgressAlertController, animated: true, completion: nil)
@@ -30,6 +29,7 @@ extension PasswordInputPageViewController {
         let serialParams = RequestHelper.serializePayload(payload: params)
         let serialForm = RequestHelper.serializePayload(payload: form)
         
+        // Set up network connection
         let destination = URL(string: url + "?" + serialParams)!
         let session = URLSession.shared
         var request = URLRequest(url: destination)
@@ -49,8 +49,10 @@ extension PasswordInputPageViewController {
                 })
                 networkErrorAlertController.addAction(SignInViaAlternateRouteAction)
                 networkErrorAlertController.addAction(OKAction)
-                authenticationInProgressAlertController.dismiss(animated: true, completion: {
-                    self.present(networkErrorAlertController, animated: true, completion: nil)
+                DispatchQueue.main.async(execute: {
+                    authenticationInProgressAlertController.dismiss(animated: true, completion: {
+                        self.present(networkErrorAlertController, animated: true, completion: nil)
+                    })
                 })
             } else {
                 let HTTPResponse = response as! HTTPURLResponse
@@ -60,19 +62,29 @@ extension PasswordInputPageViewController {
                     UserCredentials.currentUser.cookies = cookies
                     
                     // Proceed to the next page
-                    authenticationInProgressAlertController.dismiss(animated: true, completion: {
-                        <#code#>
+                    DispatchQueue.main.async(execute: {
+                        authenticationInProgressAlertController.dismiss(animated: true, completion: {
+                            // Fade out all elements
+                            UIView.animate(withDuration: 0.5, animations: {
+                                for view in self.view.subviews {
+                                    view.alpha = 0.0
+                                }
+                            }, completion: { (ifCompleted) in
+                                self.performSegue(withIdentifier: "fromPasswordInputPageToAuthenticationCompletedPage", sender: self)
+                            })
+                        })
                     })
-                    
                 } else {
                     // Report message of access denied
-                    let AccessDeniedAlertController = UIAlertController(title: "验证失败", message: "您的用户名或密码不正确，或您使用的用户身份当前没有访问权限。", preferredStyle: UIAlertControllerStyle.alert)
+                    let accessDeniedAlertController = UIAlertController(title: "验证失败", message: "您的用户名或密码不正确，或您使用的用户身份当前没有访问权限。", preferredStyle: UIAlertControllerStyle.alert)
                     let OKAction = UIAlertAction(title: "确认", style: UIAlertActionStyle.default, handler: { (action) in
-                        AccessDeniedAlertController.dismiss(animated: true, completion: nil)
+                        accessDeniedAlertController.dismiss(animated: true, completion: nil)
                     })
-                    AccessDeniedAlertController.addAction(OKAction)
-                    authenticationInProgressAlertController.dismiss(animated: true, completion: {
-                        self.present(AccessDeniedAlertController, animated: true, completion: nil)
+                    accessDeniedAlertController.addAction(OKAction)
+                    DispatchQueue.main.async(execute: {
+                        authenticationInProgressAlertController.dismiss(animated: true, completion: {
+                            self.present(accessDeniedAlertController, animated: true, completion: nil)
+                        })
                     })
                 }
             }

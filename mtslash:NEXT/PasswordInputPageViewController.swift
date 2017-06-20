@@ -53,7 +53,6 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
     @IBAction func submitButtonPressed(_ sender: Any) {
         
         func authenticationViaStandardAccessPointHelper() {
-            
             // Select standard access point for user authentication
             AccessPoints.selectedAccessPoint = AccessPoints.standardAccessPoint
             
@@ -67,7 +66,6 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
     @IBAction func submitViaProxyButtonPressed(_ sender: Any) {
         
         func authenticationViaAlternateAccessPointHelper() {
-            
             // Select alternate access point for user authentication
             AccessPoints.selectedAccessPoint = AccessPoints.alternateAccessPoint
             
@@ -83,6 +81,14 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func changeAccountButtonPressed(_ sender: Any) {
+        // Fade out all elements
+        UIView.animate(withDuration: 0.5, animations: {
+            for view in self.view.subviews {
+                view.alpha = 0.0
+            }
+        }) { (ifCompleted) in
+            self.performSegue(withIdentifier: "fromPasswordInputPageToUsernameInputPage", sender: self)
+        }
     }
     
     // A convenient func for password checking and initiation of authentication process
@@ -98,7 +104,6 @@ class PasswordInputPageViewController: UIViewController, UITextFieldDelegate {
             invalidPasswordAlertController.addAction(OKAction)
             self.present(invalidPasswordAlertController, animated: true, completion: nil)
         } else {
-            
             // Set up password for current user
             UserCredentials.currentUser.password = password
             

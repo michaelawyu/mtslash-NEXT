@@ -22,7 +22,6 @@ class UserCredentials {
     
     // A func for checking the validity of username
     static func checkValidityOfUsername(username : String?) -> Bool {
-        
         if username == nil || username == "" {
             return false
         }
@@ -34,7 +33,6 @@ class UserCredentials {
     
     // A func for checking the validity of password
     static func checkValidityOfPassword(password: String?) -> Bool {
-        
         if password == nil || password == "" {
             return false
         }

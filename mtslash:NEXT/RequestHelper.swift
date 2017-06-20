@@ -14,7 +14,6 @@ class RequestHelper {
     
     // A func for serializing the payload
     static func serializePayload(payload : [String : String]) -> String {
-        
         var serialPayload = [String]()
         
         for (key, value) in payload {
