@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="s9C-gP-ISu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F0B-Yb-huR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -603,136 +603,342 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.040000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homepage_background_protostar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Baj-oC-oFB">
+                            <imageView userInteractionEnabled="NO" alpha="0.040000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage_background_protostar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-Wq-4dc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slash_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nq8-i8-fKB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Baj-oC-oFB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jev-Qf-aio">
+                                <rect key="frame" x="0.0" y="148" width="375" height="337"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qj-2n-oLy" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="6" width="421" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="e7O-eN-isn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="SECRET GIFTS in Holiday Seasons">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqC-E6-SKG" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="36" width="176" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="tPW-ty-IcY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="HELP CENTER">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-r9-Jdt" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="66" width="79" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="cca-DA-CZa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="SONG">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-vA-J0s" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="96" width="163" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="XeJ-dx-3io"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="DISCUSSION">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58S-yb-Vi7" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="126" width="134" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="SMe-tt-nig"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="FANBOOK">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkB-lL-0Tp" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="156" width="105" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Lrb-l7-KJk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="FANART">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUl-EN-ttL" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="186" width="100" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="jmj-xR-ZLO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="FANVID">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQk-D6-9kJ" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="216" width="134" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="XOS-GK-xS9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="TV FANFIC">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOy-AV-xgT" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="246" width="190" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="5cA-2H-qyn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                        <state key="normal" title="MOVIE FANFIC">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="9"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivk-aY-mRx" customClass="SlidingMenuButton" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="276" width="202" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="kF4-9V-VyH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="36"/>
+                                        <state key="normal" title="SPOTLIGHT">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="menuItemOrder">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日焦点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEb-MP-XSP">
+                                        <rect key="frame" x="16" y="315" width="60" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="nWb-xy-7dF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Light" family="PingFang SC" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="wEb-MP-XSP" secondAttribute="bottom" constant="1" id="3m9-DX-aZM"/>
+                                    <constraint firstItem="5qj-2n-oLy" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="7td-FE-exL"/>
+                                    <constraint firstAttribute="bottom" secondItem="FQk-D6-9kJ" secondAttribute="bottom" constant="89" id="92v-dx-e1S"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Dx-r9-Jdt" secondAttribute="bottom" constant="239" id="Htr-aS-1lg"/>
+                                    <constraint firstItem="qkB-lL-0Tp" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="Q0c-Ch-nOG"/>
+                                    <constraint firstItem="7UR-vA-J0s" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="TCH-V9-d9I"/>
+                                    <constraint firstAttribute="bottom" secondItem="bUl-EN-ttL" secondAttribute="bottom" constant="119" id="TTW-v6-AXA"/>
+                                    <constraint firstAttribute="bottom" secondItem="5qj-2n-oLy" secondAttribute="bottom" constant="299" id="Tf6-bu-zep"/>
+                                    <constraint firstAttribute="bottom" secondItem="58S-yb-Vi7" secondAttribute="bottom" constant="179" id="U60-q3-blg"/>
+                                    <constraint firstAttribute="bottom" secondItem="qkB-lL-0Tp" secondAttribute="bottom" constant="149" id="XTA-Ru-jGS"/>
+                                    <constraint firstItem="FQk-D6-9kJ" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="Z7z-iA-2mZ"/>
+                                    <constraint firstItem="GOy-AV-xgT" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="aFv-fg-ZDp"/>
+                                    <constraint firstItem="wEb-MP-XSP" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="bZR-Yl-tME"/>
+                                    <constraint firstItem="58S-yb-Vi7" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="oSW-pT-opV"/>
+                                    <constraint firstAttribute="bottom" secondItem="GOy-AV-xgT" secondAttribute="bottom" constant="59" id="ob3-Bd-17M"/>
+                                    <constraint firstAttribute="bottom" secondItem="ivk-aY-mRx" secondAttribute="bottom" constant="19" id="pxR-Fr-Mng"/>
+                                    <constraint firstItem="ivk-aY-mRx" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="tXh-HH-IEd"/>
+                                    <constraint firstAttribute="bottom" secondItem="BqC-E6-SKG" secondAttribute="bottom" constant="269" id="u2o-9G-b7o"/>
+                                    <constraint firstItem="BqC-E6-SKG" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="vPS-dd-4wu"/>
+                                    <constraint firstItem="bUl-EN-ttL" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="wru-fq-RXm"/>
+                                    <constraint firstAttribute="bottom" secondItem="7UR-vA-J0s" secondAttribute="bottom" constant="209" id="x83-eu-iQW"/>
+                                    <constraint firstItem="8Dx-r9-Jdt" firstAttribute="leading" secondItem="jev-Qf-aio" secondAttribute="leading" constant="16" id="xvS-C4-15k"/>
+                                    <constraint firstAttribute="height" constant="337" id="yew-bJ-4eH"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slash_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nq8-i8-fKB">
                                 <rect key="frame" x="16" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SD0-TB-YO3"/>
+                                    <constraint firstAttribute="width" constant="40" id="gSe-Pf-LOf"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osk-pb-dLY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osk-pb-dLY">
                                 <rect key="frame" x="239" y="25" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="8fm-mp-ret"/>
+                                    <constraint firstAttribute="height" constant="30" id="ljq-yf-gIw"/>
+                                </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="Reading List"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIw-tN-by4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIw-tN-by4">
                                 <rect key="frame" x="284" y="25" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JO1-jF-XuH"/>
+                                    <constraint firstAttribute="width" constant="30" id="idH-zV-AIU"/>
+                                </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="Search"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-kt-y40">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-kt-y40">
                                 <rect key="frame" x="329" y="25" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-B4-qQh">
-                                <rect key="frame" x="0.0" y="493" width="375" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今日焦点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEb-MP-XSP">
-                                <rect key="frame" x="16" y="464" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangSC-Light" family="PingFang SC" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivk-aY-mRx">
-                                <rect key="frame" x="16" y="424" width="202" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="c9J-SL-AJr"/>
+                                    <constraint firstAttribute="height" constant="30" id="VFU-Pn-gDz"/>
+                                    <constraint firstAttribute="width" constant="30" id="fcf-s1-wI5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="36"/>
-                                <state key="normal" title="SPOTLIGHT">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOy-AV-xgT">
-                                <rect key="frame" x="16" y="394" width="190" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="MOVIE FANFIC">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQk-D6-9kJ">
-                                <rect key="frame" x="16" y="364" width="134" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="TV FANFIC">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUl-EN-ttL">
-                                <rect key="frame" x="16" y="334" width="100" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="FANVID">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkB-lL-0Tp">
-                                <rect key="frame" x="16" y="304" width="105" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="FANART">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58S-yb-Vi7">
-                                <rect key="frame" x="16" y="274" width="134" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="FANBOOK">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-vA-J0s">
-                                <rect key="frame" x="16" y="244" width="163" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="DISCUSSION">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-r9-Jdt">
-                                <rect key="frame" x="16" y="214" width="79" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="SONG">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqC-E6-SKG">
-                                <rect key="frame" x="16" y="184" width="176" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="HELP CENTER">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qj-2n-oLy">
-                                <rect key="frame" x="16" y="154" width="421" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
-                                <state key="normal" title="SECRET GIFTS in Holiday Seasons">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-B4-qQh">
+                                <rect key="frame" x="0.0" y="493" width="375" height="154"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="TH7-5X-d2r"/>
+                                    <constraint firstAttribute="height" constant="154" id="gbR-Z0-b7w"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ivk-aY-mRx" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leadingMargin" id="469-hi-d69"/>
-                            <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="ivk-aY-mRx" secondAttribute="bottom" constant="201" id="LnF-iy-ON4"/>
+                            <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="Baj-oC-oFB" secondAttribute="bottom" id="0Ei-Fu-axB"/>
+                            <constraint firstItem="Nq8-i8-fKB" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leadingMargin" id="2np-8R-R0Q"/>
+                            <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="jev-Qf-aio" secondAttribute="bottom" constant="182" id="725-De-l9m"/>
+                            <constraint firstItem="Nq8-i8-fKB" firstAttribute="top" secondItem="tmk-wu-LNq" secondAttribute="bottom" id="7vO-jq-yYo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OIw-tN-by4" secondAttribute="trailing" constant="45" id="HgT-3l-hGC"/>
+                            <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="bkj-Wq-4dc" secondAttribute="bottom" id="LRC-ZO-9N0"/>
+                            <constraint firstAttribute="trailing" secondItem="bkj-Wq-4dc" secondAttribute="trailing" id="NCz-8r-WgA"/>
+                            <constraint firstItem="bkj-Wq-4dc" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leading" id="PHM-Be-ROs"/>
+                            <constraint firstItem="Baj-oC-oFB" firstAttribute="top" secondItem="lZW-Kv-miC" secondAttribute="top" id="SU1-Ws-eZm"/>
+                            <constraint firstAttribute="trailing" secondItem="jev-Qf-aio" secondAttribute="trailing" id="UdE-5U-8xJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="osk-pb-dLY" secondAttribute="trailing" constant="90" id="VHN-YR-Dy7"/>
+                            <constraint firstItem="Bhs-kt-y40" firstAttribute="top" secondItem="tmk-wu-LNq" secondAttribute="bottom" constant="5" id="cF4-RM-oHS"/>
+                            <constraint firstItem="jev-Qf-aio" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leading" id="e0W-I3-LVp"/>
+                            <constraint firstItem="OIw-tN-by4" firstAttribute="top" secondItem="tmk-wu-LNq" secondAttribute="bottom" constant="5" id="eWQ-1t-yrB"/>
+                            <constraint firstAttribute="trailing" secondItem="Baj-oC-oFB" secondAttribute="trailing" id="gYE-wR-2LI"/>
+                            <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="ZBc-B4-qQh" secondAttribute="bottom" constant="20" id="mCs-Xu-Zkn"/>
+                            <constraint firstItem="ZBc-B4-qQh" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leading" id="o3n-Lu-l7i"/>
+                            <constraint firstItem="osk-pb-dLY" firstAttribute="top" secondItem="tmk-wu-LNq" secondAttribute="bottom" constant="5" id="oUm-tc-OOq"/>
+                            <constraint firstItem="bkj-Wq-4dc" firstAttribute="top" secondItem="lZW-Kv-miC" secondAttribute="top" id="rLy-S8-Szq"/>
+                            <constraint firstItem="Baj-oC-oFB" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leading" id="rQG-NL-0NN"/>
+                            <constraint firstItem="Bhs-kt-y40" firstAttribute="trailing" secondItem="lZW-Kv-miC" secondAttribute="trailingMargin" id="x7k-bX-iqq"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBc-B4-qQh" secondAttribute="trailing" id="xln-86-sY2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="homepageBackgroundImageView" destination="bkj-Wq-4dc" id="2Ng-F8-a8e"/>
+                        <outlet property="homepageBackgroundMaskImageView" destination="Baj-oC-oFB" id="kLp-Lv-OGz"/>
+                        <outlet property="slidingMenuSubtitleLabel" destination="wEb-MP-XSP" id="DvF-tf-qXz"/>
+                        <outlet property="slidingMenuView" destination="jev-Qf-aio" id="Aqo-tB-oac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzA-ZM-3bV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <view contentMode="scaleToFill" id="tL8-m6-5DP">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="154"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ch3-wM-sTG">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="154"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RRo-q5-FGJ">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells>
+                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="az5-8r-24z">
+                                    <rect key="frame" x="16" y="0.0" width="260" height="154"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="154"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the_flash_panel.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="irA-n5-rXp">
+                                                <rect key="frame" x="0.0" y="0.0" width="260" height="154"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="内容来源" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVz-aX-jJ5">
+                                                <rect key="frame" x="8" y="4" width="135" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="内容标题" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDW-Tf-msJ">
+                                                <rect key="frame" x="0.0" y="100" width="250" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECTION NAME" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQc-L6-MNw">
+                                                <rect key="frame" x="112" y="85" width="140" height="26"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="26" id="XiP-1c-K3K"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="irA-n5-rXp" secondAttribute="trailing" id="IKV-RM-yGm"/>
+                                        <constraint firstItem="irA-n5-rXp" firstAttribute="top" secondItem="az5-8r-24z" secondAttribute="top" id="Nbu-g1-XVs"/>
+                                        <constraint firstAttribute="trailing" secondItem="PQc-L6-MNw" secondAttribute="trailing" constant="8" id="SQG-Ea-ZNZ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="PQc-L6-MNw" secondAttribute="bottom" constant="35" id="cEL-4T-Beq"/>
+                                        <constraint firstItem="irA-n5-rXp" firstAttribute="leading" secondItem="az5-8r-24z" secondAttribute="leading" id="gpf-z2-bkN"/>
+                                        <constraint firstAttribute="bottom" secondItem="irA-n5-rXp" secondAttribute="bottom" id="k9t-Nq-ZS0"/>
+                                    </constraints>
+                                    <size key="customSize" width="260" height="154"/>
+                                </collectionViewCell>
+                            </cells>
+                        </collectionView>
+                    </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </objects>
@@ -827,6 +1033,7 @@
         <image name="password.png" width="332" height="332"/>
         <image name="password_input_page_background_sherlock.jpg" width="1074" height="1280"/>
         <image name="slash_full.png" width="432" height="432"/>
+        <image name="the_flash_panel.jpg" width="520" height="308"/>
         <image name="username_input_page_background_st.jpg" width="976" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>

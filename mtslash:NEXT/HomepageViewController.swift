@@ -9,11 +9,22 @@
 import UIKit
 
 class HomepageViewController: UIViewController {
-
+    
+    @IBOutlet weak var homepageBackgroundImageView: UIImageView!
+    @IBOutlet weak var homepageBackgroundMaskImageView: UIImageView!
+    @IBOutlet weak var slidingMenuView: UIView!
+    @IBOutlet weak var slidingMenuSubtitleLabel: UILabel!
+    
+    var slidingMenuButtons : [ SlidingMenuButton ] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        collectSlidingMenuButtons()
+        refreshSlidingMenuButtons()
+        for button in slidingMenuButtons {
+            button.addTarget(self, action: #selector(slidingMenuButtonPressed(sender:)), for: UIControlEvents.touchUpInside)
+        }
     }
 
     override func didReceiveMemoryWarning() {
