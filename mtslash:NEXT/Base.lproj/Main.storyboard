@@ -606,7 +606,7 @@
                             <imageView userInteractionEnabled="NO" alpha="0.040000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage_background_protostar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-Wq-4dc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Baj-oC-oFB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_mask.png" translatesAutoresizingMaskIntoConstraints="NO" id="Baj-oC-oFB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jev-Qf-aio">
@@ -868,8 +868,10 @@
                     <connections>
                         <outlet property="homepageBackgroundImageView" destination="bkj-Wq-4dc" id="2Ng-F8-a8e"/>
                         <outlet property="homepageBackgroundMaskImageView" destination="Baj-oC-oFB" id="kLp-Lv-OGz"/>
+                        <outlet property="searchButton" destination="OIw-tN-by4" id="Qi8-Pc-Oy2"/>
                         <outlet property="slidingMenuSubtitleLabel" destination="wEb-MP-XSP" id="DvF-tf-qXz"/>
                         <outlet property="slidingMenuView" destination="jev-Qf-aio" id="Aqo-tB-oac"/>
+                        <outlet property="viewReadingListButton" destination="osk-pb-dLY" id="pLI-7Y-zh9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzA-ZM-3bV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1027,6 +1029,7 @@
         <image name="Sample User Account Picture" width="25" height="25"/>
         <image name="Search" width="25" height="25"/>
         <image name="authentication_completed_page_background_avengers.jpg" width="1028" height="1227"/>
+        <image name="background_mask.png" width="1242" height="2208"/>
         <image name="check.png" width="553" height="442"/>
         <image name="homepage_background_protostar.jpg" width="840" height="1024"/>
         <image name="id_card.png" width="389" height="388"/>

@@ -20,8 +20,6 @@ extension HomepageViewController {
             }
         }
         
-        print(slidingMenuButtons.count)
-        
         func compareSlidingMenuButtons(firstButton : SlidingMenuButton, secondButton: SlidingMenuButton) -> Bool {
             let firstButtonOrder = firstButton.menuItemOrder
             let secondButtonOrder = secondButton.menuItemOrder
@@ -36,7 +34,8 @@ extension HomepageViewController {
         slidingMenuButtons.sort(by: compareSlidingMenuButtons(firstButton:secondButton:))
     }
     
-    func refreshSlidingMenuButtons() {
+    // A func for updating titles of buttons in the sliding menu
+    func updateSlidingMenuButtons() {
         let slidingMenuItems = SlidingMenuHandler.activeSlidingMenuHandler.slidingMenuItems
         
         for i in 0 ..< slidingMenuItems.endIndex {

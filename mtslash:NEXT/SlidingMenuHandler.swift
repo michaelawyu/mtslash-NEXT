@@ -20,7 +20,7 @@ class SlidingMenuHandler {
         slidingMenuItems = (try! JSONSerialization.jsonObject(with: slidingMenuItemsData, options: [])) as! [[String : String]]
     }
     
-    private func focusAt(index : Int) {
+    func focusAt(index : Int) {
         if index == slidingMenuItems.endIndex {
             return
         }

@@ -9,13 +9,12 @@
 import Foundation
 
 // A class for loading access points from files
-
 class AccessPoints {
     
     static let (standardAccessPoint, alternateAccessPoint) = loadAccessPointsFromFile()
     static var selectedAccessPoint = standardAccessPoint
     
-    static func loadAccessPointsFromFile() -> ([String : Any], [String : Any]) {
+    private static func loadAccessPointsFromFile() -> ([String : Any], [String : Any]) {
         let standardAccessPointDataURL = Bundle.main.url(forResource: "stdAPData", withExtension: "json")!
         let alternateAccessPointDataURL = Bundle.main.url(forResource: "altAPData", withExtension: "json")!
         let standardAccessPointData = try! Data(contentsOf: standardAccessPointDataURL)

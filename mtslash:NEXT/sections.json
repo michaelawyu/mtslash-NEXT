@@ -1,0 +1,710 @@
+{
+	"mov": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": [
+			"mov_avengers",
+			"mov_tre"
+		],
+		"categories": [
+			"mov",
+			"mov_original_works",
+			"mov_translations",
+			"mov_reprints"
+		]
+	},
+	"mov_original_works": {
+		"display_name": "原创",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_translations": {
+		"display_name": "翻译",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_reprints": {
+		"display_name": "转载",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers": {
+		"display_name": "全部内容",
+		"background_image": "avengers_background.jpg",
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"mov_avengers",
+			"mov_avengers_avengers",
+			"mov_avengers_ironman",
+			"mov_avengers_thor",
+			"mov_avengers_captain_america",
+			"mov_avengers_guardians_of_the_galaxy",
+			"mov_avengers_antman",
+			"mov_avengers_hulk",
+			"mov_avengers_doctor_strange",
+			"mov_avengers_original_works",
+			"mov_avengers_translations",
+			"mov_avengers_reprints"
+		]
+	},
+	"mov_avengers_avengers": {
+		"display_name": "复仇者联盟",
+		"background_image": null,
+		"panel_image": "avengers_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_ironman": {
+		"display_name": "钢铁侠",
+		"background_image": null,
+		"panel_image": "iron_man_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_thor": {
+		"display_name": "雷神",
+		"background_image": null,
+		"panel_image": "thor_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_captain_america": {
+		"display_name": "美国队长",
+		"background_image": null,
+		"panel_image": "captain_america_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_guardians_of_the_galaxy": {
+		"display_name": "银河护卫队",
+		"background_image": null,
+		"panel_image": "guardians_of_the_galaxy_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_antman": {
+		"display_name": "蚁人",
+		"background_image": null,
+		"panel_image": "antman_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_hulk": {
+		"display_name": "无敌浩克",
+		"background_image": null,
+		"panel_image": "hulk_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_avengers_doctor_strange": {
+		"display_name": "奇异博士",
+		"background_image": null,
+		"panel_image": "doctor_strange_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"mov_tre",
+			"mov_tre_DC",
+			"mov_tre_inception",
+			"mov_tre_TSN",
+			"mov_tre_x_men",
+			"mov_tre_mission_impossible",
+			"mov_tre_star_trek",
+			"mov_tre_007",
+			"mov_tre_tolkien",
+			"mov_tre_pacific_rim",
+			"mov_tre_HP",
+			"mov_tre_spider_man",
+			"mov_tre_kingsman",
+			"mov_tre_les_miserables",
+			"mov_tre_the_man_from_uncle",
+			"mov_tre_WOW",
+			"mov_tre_star_wars"
+		]
+	},
+	"mov_tre_DC": {
+		"display_name": "DC",
+		"background_image": "DC_background.jpg",
+		"panel_image": "DC_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_inception": {
+		"display_name": "Inception",
+		"background_image": "inception_background.jpg",
+		"panel_image": "inception_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_TSN": {
+		"display_name": "TSN",
+		"background_image": "TSN_background.jpg",
+		"panel_image": "TSN_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_x_men": {
+		"display_name": "X-Men",
+		"background_image": "x_men_background.jpg",
+		"panel_image": "x_men_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_mission_impossible": {
+		"display_name": "MI4",
+		"background_image": "mission_impossible_background.jpg",
+		"panel_image": "mission_impossible_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_star_trek": {
+		"display_name": "Star Trek",
+		"background_image": "star_trek_background.jpg",
+		"panel_image": "star_trek_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_007": {
+		"display_name": "007",
+		"background_image": "007_background.jpg",
+		"panel_image": "007_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_tolkien": {
+		"display_name": "Tolkien",
+		"background_image": "tolkien_background.jpg",
+		"panel_image": "tolkien_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_pacific_rim": {
+		"display_name": "Pacific Rim",
+		"background_image": "pacific_rim_background.jpg",
+		"panel_image": "pacific_rim_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_HP": {
+		"display_name": "HP",
+		"background_image": "HP_background.jpg",
+		"panel_image": "HP_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_spider_man": {
+		"display_name": "Spider Man",
+		"background_image": "spider_man_background.jpg",
+		"panel_image": "spider_man_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_kingsman": {
+		"display_name": "Kingsman",
+		"background_image": "kingsman_background.jpg",
+		"panel_image": "kingsman_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_les_miserables": {
+		"display_name": "悲惨世界",
+		"background_image": "les_miserables_background.jpg",
+		"panel_image": "les_miserables_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_the_man_from_uncle": {
+		"display_name": "秘密特工",
+		"background_image": "the_man_from_uncle_background.jpg",
+		"panel_image": "the_man_from_uncle_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_WOW": {
+		"display_name": "WOW",
+		"background_image": "WOW_background.jpg",
+		"panel_image": "WOW_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"mov_tre_star_wars": {
+		"display_name": "Star Wars",
+		"background_image": "star_wars_background.jpg",
+		"panel_image": "star_wars_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": [
+			"tv_sherlock",
+			"tv_tre"
+		],
+		"categories": [
+			"tv",
+			"tv_original_works",
+			"tv_translations",
+			"tv_reprints"
+		]
+	},
+	"tv_original_works": {
+		"display_name": "原创",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_translations": {
+		"display_name": "翻译",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_reprints": {
+		"display_name": "转载",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock": {
+		"display_name": "全部内容",
+		"background_image": "sherlock_background.jpg",
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"tv_sherlock",
+			"tv_sherlock_tv_2010",
+			"tv_sherlock_books",
+			"tv_sherlock_movie_2009",
+			"tv_sherlock_elementary",
+			"tv_sherlock_tv_1984",
+			"tv_sherlock_crossover"
+		]
+	},
+	"tv_sherlock_tv_2010": {
+		"display_name": "神探夏洛克（2010年电视剧）",
+		"background_image": null,
+		"panel_image": "sherlock_tv_2010_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock_books": {
+		"display_name": "福尔摩斯探案集（原著）",
+		"background_image": null,
+		"panel_image": "sherlock_holmes_books_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock_movie_2009": {
+		"display_name": "大侦探福尔摩斯（2009年电影）",
+		"background_image": null,
+		"panel_image": "sherlock_holmes_movie_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock_elementary": {
+		"display_name": "基本演绎法",
+		"background_image": null,
+		"panel_image": "elementary_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock_tv_1984": {
+		"display_name": "福尔摩斯历险记（1984年电视剧）",
+		"background_image": null,
+		"panel_image": "sherlock_holmes_books_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_sherlock_crossover": {
+		"display_name": "福尔摩斯系列混合同人",
+		"background_image": null,
+		"panel_image": null,
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"tv_tre",
+			"tv_tre_CSI",
+			"tv_tre_SPN",
+			"tv_tre_NCIS",
+			"tv_tre_merlin",
+			"tv_tre_suits",
+			"tv_tre_common_laws",
+			"tv_tre_POI",
+			"tv_tre_house",
+			"tv_tre_hannibal",
+			"tv_tre_white_collar",
+			"tv_tre_teen_wolf",
+			"tv_tre_h5o",
+			"tv_tre_doctor_who",
+			"tv_tre_the_flash"
+		]
+	},
+	"tv_tre_CSI": {
+		"display_name": "CSI",
+		"background_image": "CSI_background.jpg",
+		"panel_image": "CSI_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_SPN": {
+		"display_name": "SPN",
+		"background_image": "SPN_background.jpg",
+		"panel_image": "SPN_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_NCIS": {
+		"display_name": "NCIS",
+		"background_image": "NCIS_background.jpg",
+		"panel_image": "NCIS_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_merlin": {
+		"display_name": "Merlin",
+		"background_image": "merlin_background.jpg",
+		"panel_image": "merlin_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_suits": {
+		"display_name": "Suits",
+		"background_image": "suits_background.jpg",
+		"panel_image": "suits_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_common_law": {
+		"display_name": "Common Law",
+		"background_image": "common_law_background.jpg",
+		"panel_image": "common_law_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_POI": {
+		"display_name": "POI",
+		"background_image": "POI_background.jpg",
+		"panel_image": "POI_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_house": {
+		"display_name": "House",
+		"background_image": "house_background.jpg",
+		"panel_image": "house_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_hannibal": {
+		"display_name": "Hannibal",
+		"background_image": "hannibal_background.jpg",
+		"panel_image": "Hannibal_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_white_collar": {
+		"display_name": "White Collar",
+		"background_image": "white_collar_background.jpg",
+		"panel_image": "white_collar_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_teen_wolf": {
+		"display_name": "Teen Wolf",
+		"background_image": "teen_wolf_background.jpg",
+		"panel_image": "teen_wolf_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_h5o": {
+		"display_name": "H5O",
+		"background_image": "h5o_background.jpg",
+		"panel_image": "h5o_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_doctor_who": {
+		"display_name": "Doctor Who",
+		"background_image": "doctor_who_background.jpg",
+		"panel_image": "doctor_who_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"tv_tre_the_flash": {
+		"display_name": "The Flash",
+		"background_image": "the_flash_background.jpg",
+		"panel_image": "the_flash_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"fanart": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"fanart"
+		]
+	},
+	"fanvid": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"fanvid",
+			"fanvid_tech",
+			"fanvid_special_events",
+			"fanvid_covers"
+		]
+	},
+	"fanvid_tech": {
+		"display_name": "技术讨论",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"fanvid_special_events": {
+		"display_name": "特别活动",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"fanvid_covers": {
+		"display_name": "翻唱视频",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"fanbook": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"fanbook",
+			"fanbook_market_buy",
+			"fanbook_market_sell"
+		]
+	},
+	"fanbook_market_buy": {
+		"display_name": "出售信息",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"fanbook_market_sell": {
+		"display_name": "求购信息",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"discussion": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"discussion"
+		]
+	},
+	"song": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"song"
+		]
+	},
+	"help_center": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"help_center"
+		]
+	},
+	"gifts": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": [
+			"gifts_past"
+		],
+		"categories": [
+			"gifts",
+			"gifts_tv",
+			"gifts_movie",
+			"gifts_others"
+		]
+	},
+	"gifts_tv": {
+		"display_name": "电视剧同人",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_movie": {
+		"display_name": "电影同人",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_others": {
+		"display_name": "其他同人",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_past": {
+		"display_name": "全部内容",
+		"background_image": null,
+		"panel_image": "general_panel.jpg",
+		"ref": null,
+		"subsections": null,
+		"categories": [
+			"gifts_past",
+			"gifts_past_tv",
+			"gifts_past_movie",
+			"gifts_past_others"
+		]
+	},
+	"gifts_past_tv": {
+		"display_name": "电视剧同人",
+		"background_image": null,
+		"panel_image": null,
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_past_movie": {
+		"display_name": "电影同人",
+		"background_image": null,
+		"panel_image": null,
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_past_others": {
+		"display_name": "其他同人",
+		"background_image": null,
+		"panel_image": null,
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	},
+	"gifts_past_rules": {
+		"display_name": "活动规则",
+		"background_image": null,
+		"panel_image": null,
+		"ref": null,
+		"subsections": null,
+		"categories": null
+	}
+}

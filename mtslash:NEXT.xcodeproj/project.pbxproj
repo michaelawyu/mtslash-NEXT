@@ -45,24 +45,24 @@
 		09887E231EFAE110002D3FDC /* CSI_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E041EFAE110002D3FDC /* CSI_panel.jpg */; };
 		09887E241EFAE110002D3FDC /* elementary_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E051EFAE110002D3FDC /* elementary_panel.jpg */; };
 		09887E251EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E061EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg */; };
-		09887E261EFAE110002D3FDC /* sherlock_holmes_book_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E071EFAE110002D3FDC /* sherlock_holmes_book_panel.jpg */; };
-		09887E271EFAE110002D3FDC /* sherlock_tv_2012_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E081EFAE110002D3FDC /* sherlock_tv_2012_panel.jpg */; };
+		09887E261EFAE110002D3FDC /* sherlock_holmes_books_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E071EFAE110002D3FDC /* sherlock_holmes_books_panel.jpg */; };
+		09887E271EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E081EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg */; };
 		09887E281EFAE110002D3FDC /* star_wars_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E091EFAE110002D3FDC /* star_wars_panel.jpg */; };
-		09887E291EFAE110002D3FDC /* word_of_warcraft_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0A1EFAE110002D3FDC /* word_of_warcraft_panel.jpg */; };
+		09887E291EFAE110002D3FDC /* WOW_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0A1EFAE110002D3FDC /* WOW_panel.jpg */; };
 		09887E2A1EFAE110002D3FDC /* the_man_from_uncle_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0B1EFAE110002D3FDC /* the_man_from_uncle_panel.jpg */; };
 		09887E2B1EFAE110002D3FDC /* les_miserables_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0C1EFAE110002D3FDC /* les_miserables_panel.jpg */; };
 		09887E2C1EFAE110002D3FDC /* kingsman_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0D1EFAE110002D3FDC /* kingsman_panel.jpg */; };
 		09887E2D1EFAE110002D3FDC /* spider_man_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0E1EFAE110002D3FDC /* spider_man_panel.jpg */; };
-		09887E2E1EFAE110002D3FDC /* harry_potter_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0F1EFAE110002D3FDC /* harry_potter_panel.jpg */; };
+		09887E2E1EFAE110002D3FDC /* HP_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E0F1EFAE110002D3FDC /* HP_panel.jpg */; };
 		09887E2F1EFAE110002D3FDC /* pacific_rim_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E101EFAE110002D3FDC /* pacific_rim_panel.jpg */; };
-		09887E301EFAE110002D3FDC /* the_hobbit_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E111EFAE110002D3FDC /* the_hobbit_panel.jpg */; };
+		09887E301EFAE110002D3FDC /* tolkien_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E111EFAE110002D3FDC /* tolkien_panel.jpg */; };
 		09887E311EFAE110002D3FDC /* 007_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E121EFAE110002D3FDC /* 007_panel.jpg */; };
 		09887E321EFAE110002D3FDC /* star_trek_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E131EFAE110002D3FDC /* star_trek_panel.jpg */; };
 		09887E331EFAE110002D3FDC /* mission_impossible_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E141EFAE110002D3FDC /* mission_impossible_panel.jpg */; };
 		09887E341EFAE110002D3FDC /* x_men_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E151EFAE110002D3FDC /* x_men_panel.jpg */; };
-		09887E351EFAE110002D3FDC /* the_social_network_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E161EFAE110002D3FDC /* the_social_network_panel.jpg */; };
+		09887E351EFAE110002D3FDC /* TSN_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E161EFAE110002D3FDC /* TSN_panel.jpg */; };
 		09887E361EFAE110002D3FDC /* inception_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E171EFAE110002D3FDC /* inception_panel.jpg */; };
-		09887E371EFAE110002D3FDC /* dc_universe_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E181EFAE110002D3FDC /* dc_universe_panel.jpg */; };
+		09887E371EFAE110002D3FDC /* DC_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E181EFAE110002D3FDC /* DC_panel.jpg */; };
 		09887E381EFAE110002D3FDC /* doctor_strange_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E191EFAE110002D3FDC /* doctor_strange_panel.jpg */; };
 		09887E391EFAE110002D3FDC /* hulk_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E1A1EFAE110002D3FDC /* hulk_panel.jpg */; };
 		09887E3A1EFAE110002D3FDC /* antman_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09887E1B1EFAE110002D3FDC /* antman_panel.jpg */; };
@@ -77,6 +77,43 @@
 		09887E541EFBDD7C002D3FDC /* SlidingMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09887E531EFBDD7C002D3FDC /* SlidingMenuButton.swift */; };
 		09887E561EFBE23F002D3FDC /* slidingMenuItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 09887E551EFBE23F002D3FDC /* slidingMenuItems.json */; };
 		09887E581EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09887E571EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift */; };
+		09A6EA331EFD7ADA008BFCBB /* star_wars_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */; };
+		09A6EA341EFD7ADA008BFCBB /* WOW_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA131EFD7ADA008BFCBB /* WOW_background.jpg */; };
+		09A6EA351EFD7ADA008BFCBB /* the_flash_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA141EFD7ADA008BFCBB /* the_flash_background.jpg */; };
+		09A6EA361EFD7ADA008BFCBB /* the_man_from_uncle_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA151EFD7ADA008BFCBB /* the_man_from_uncle_background.jpg */; };
+		09A6EA371EFD7ADA008BFCBB /* background_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA161EFD7ADA008BFCBB /* background_mask.png */; };
+		09A6EA381EFD7ADA008BFCBB /* suits_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA171EFD7ADA008BFCBB /* suits_background.jpg */; };
+		09A6EA391EFD7ADA008BFCBB /* common_law_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA181EFD7ADA008BFCBB /* common_law_background.jpg */; };
+		09A6EA3A1EFD7ADA008BFCBB /* white_collar_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA191EFD7ADA008BFCBB /* white_collar_background.jpg */; };
+		09A6EA3B1EFD7ADA008BFCBB /* POI_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1A1EFD7ADA008BFCBB /* POI_background.jpg */; };
+		09A6EA3C1EFD7ADA008BFCBB /* house_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1B1EFD7ADA008BFCBB /* house_background.jpg */; };
+		09A6EA3D1EFD7ADA008BFCBB /* doctor_who_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1C1EFD7ADA008BFCBB /* doctor_who_background.jpg */; };
+		09A6EA3E1EFD7ADA008BFCBB /* h5o_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1D1EFD7ADA008BFCBB /* h5o_background.jpg */; };
+		09A6EA3F1EFD7ADA008BFCBB /* teen_wolf_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1E1EFD7ADA008BFCBB /* teen_wolf_background.jpg */; };
+		09A6EA401EFD7ADA008BFCBB /* merlin_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA1F1EFD7ADA008BFCBB /* merlin_background.jpg */; };
+		09A6EA411EFD7ADA008BFCBB /* NCIS_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA201EFD7ADA008BFCBB /* NCIS_background.jpg */; };
+		09A6EA421EFD7ADA008BFCBB /* SPN_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA211EFD7ADA008BFCBB /* SPN_background.jpg */; };
+		09A6EA431EFD7ADA008BFCBB /* sherlock_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA221EFD7ADA008BFCBB /* sherlock_background.jpg */; };
+		09A6EA441EFD7ADA008BFCBB /* CSI_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */; };
+		09A6EA451EFD7ADA008BFCBB /* les_miserables_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */; };
+		09A6EA461EFD7ADA008BFCBB /* spider_man_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */; };
+		09A6EA471EFD7ADA008BFCBB /* harry_potter_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */; };
+		09A6EA481EFD7ADA008BFCBB /* pacific_rim_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */; };
+		09A6EA491EFD7ADA008BFCBB /* tolkien_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */; };
+		09A6EA4A1EFD7ADA008BFCBB /* 007_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */; };
+		09A6EA4B1EFD7ADA008BFCBB /* star_trek_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2A1EFD7ADA008BFCBB /* star_trek_background.jpg */; };
+		09A6EA4C1EFD7ADA008BFCBB /* mission_impossible_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2B1EFD7ADA008BFCBB /* mission_impossible_background.jpg */; };
+		09A6EA4D1EFD7ADA008BFCBB /* x_men_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2C1EFD7ADA008BFCBB /* x_men_background.jpg */; };
+		09A6EA4E1EFD7ADA008BFCBB /* TSN_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2D1EFD7ADA008BFCBB /* TSN_background.jpg */; };
+		09A6EA4F1EFD7ADA008BFCBB /* inception_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2E1EFD7ADA008BFCBB /* inception_background.jpg */; };
+		09A6EA501EFD7ADA008BFCBB /* DC_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA2F1EFD7ADA008BFCBB /* DC_background.jpg */; };
+		09A6EA511EFD7ADA008BFCBB /* avengers_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA301EFD7ADA008BFCBB /* avengers_background.jpg */; };
+		09A6EA521EFD7ADA008BFCBB /* kingsman_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA311EFD7ADA008BFCBB /* kingsman_background.jpg */; };
+		09A6EA531EFD7ADA008BFCBB /* hannibal_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA321EFD7ADA008BFCBB /* hannibal_background.jpg */; };
+		09A6EA551EFF95B4008BFCBB /* sections.json in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA541EFF95B4008BFCBB /* sections.json */; };
+		09A6EA571EFFA348008BFCBB /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6EA561EFFA348008BFCBB /* Sections.swift */; };
+		09A6EA5F1EFFC465008BFCBB /* mtslash_NEXT_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6EA5E1EFFC465008BFCBB /* mtslash_NEXT_Tests.swift */; };
+		09A6EA671EFFC84C008BFCBB /* homepage_Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA661EFFC84C008BFCBB /* homepage_Mask.png */; };
 		09C02C321EF5836F00CF111F /* AccessPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C311EF5836F00CF111F /* AccessPoints.swift */; };
 		09C02C351EF6256500CF111F /* stdAPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 09C02C341EF6256500CF111F /* stdAPData.json */; };
 		09C02C3B1EF6622F00CF111F /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C3A1EF6622F00CF111F /* RequestHelper.swift */; };
@@ -89,6 +126,16 @@
 		09C02C501EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C4F1EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift */; };
 		09C02C541EF7ACFE00CF111F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C531EF7ACFE00CF111F /* HomepageViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A6EA611EFFC465008BFCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09026BB11ED3A4FE0047EEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09026BB81ED3A4FE0047EEFF;
+			remoteInfo = "mtslash:NEXT";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09026BB91ED3A4FE0047EEFF /* mtslash:NEXT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mtslash:NEXT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,24 +178,24 @@
 		09887E041EFAE110002D3FDC /* CSI_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CSI_panel.jpg; sourceTree = "<group>"; };
 		09887E051EFAE110002D3FDC /* elementary_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elementary_panel.jpg; sourceTree = "<group>"; };
 		09887E061EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_holmes_movie_panel.jpg; sourceTree = "<group>"; };
-		09887E071EFAE110002D3FDC /* sherlock_holmes_book_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_holmes_book_panel.jpg; sourceTree = "<group>"; };
-		09887E081EFAE110002D3FDC /* sherlock_tv_2012_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_tv_2012_panel.jpg; sourceTree = "<group>"; };
+		09887E071EFAE110002D3FDC /* sherlock_holmes_books_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_holmes_books_panel.jpg; sourceTree = "<group>"; };
+		09887E081EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_tv_2010_panel.jpg; sourceTree = "<group>"; };
 		09887E091EFAE110002D3FDC /* star_wars_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_wars_panel.jpg; sourceTree = "<group>"; };
-		09887E0A1EFAE110002D3FDC /* word_of_warcraft_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = word_of_warcraft_panel.jpg; sourceTree = "<group>"; };
+		09887E0A1EFAE110002D3FDC /* WOW_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WOW_panel.jpg; sourceTree = "<group>"; };
 		09887E0B1EFAE110002D3FDC /* the_man_from_uncle_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_man_from_uncle_panel.jpg; sourceTree = "<group>"; };
 		09887E0C1EFAE110002D3FDC /* les_miserables_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = les_miserables_panel.jpg; sourceTree = "<group>"; };
 		09887E0D1EFAE110002D3FDC /* kingsman_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingsman_panel.jpg; sourceTree = "<group>"; };
 		09887E0E1EFAE110002D3FDC /* spider_man_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spider_man_panel.jpg; sourceTree = "<group>"; };
-		09887E0F1EFAE110002D3FDC /* harry_potter_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harry_potter_panel.jpg; sourceTree = "<group>"; };
+		09887E0F1EFAE110002D3FDC /* HP_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HP_panel.jpg; sourceTree = "<group>"; };
 		09887E101EFAE110002D3FDC /* pacific_rim_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pacific_rim_panel.jpg; sourceTree = "<group>"; };
-		09887E111EFAE110002D3FDC /* the_hobbit_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_hobbit_panel.jpg; sourceTree = "<group>"; };
+		09887E111EFAE110002D3FDC /* tolkien_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tolkien_panel.jpg; sourceTree = "<group>"; };
 		09887E121EFAE110002D3FDC /* 007_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007_panel.jpg; sourceTree = "<group>"; };
 		09887E131EFAE110002D3FDC /* star_trek_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_trek_panel.jpg; sourceTree = "<group>"; };
 		09887E141EFAE110002D3FDC /* mission_impossible_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mission_impossible_panel.jpg; sourceTree = "<group>"; };
 		09887E151EFAE110002D3FDC /* x_men_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x_men_panel.jpg; sourceTree = "<group>"; };
-		09887E161EFAE110002D3FDC /* the_social_network_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_social_network_panel.jpg; sourceTree = "<group>"; };
+		09887E161EFAE110002D3FDC /* TSN_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TSN_panel.jpg; sourceTree = "<group>"; };
 		09887E171EFAE110002D3FDC /* inception_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inception_panel.jpg; sourceTree = "<group>"; };
-		09887E181EFAE110002D3FDC /* dc_universe_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dc_universe_panel.jpg; sourceTree = "<group>"; };
+		09887E181EFAE110002D3FDC /* DC_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DC_panel.jpg; sourceTree = "<group>"; };
 		09887E191EFAE110002D3FDC /* doctor_strange_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doctor_strange_panel.jpg; sourceTree = "<group>"; };
 		09887E1A1EFAE110002D3FDC /* hulk_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulk_panel.jpg; sourceTree = "<group>"; };
 		09887E1B1EFAE110002D3FDC /* antman_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antman_panel.jpg; sourceTree = "<group>"; };
@@ -163,6 +210,45 @@
 		09887E531EFBDD7C002D3FDC /* SlidingMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuButton.swift; sourceTree = "<group>"; };
 		09887E551EFBE23F002D3FDC /* slidingMenuItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = slidingMenuItems.json; sourceTree = "<group>"; };
 		09887E571EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewControllerExtB.swift; sourceTree = "<group>"; };
+		09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_wars_background.jpg; sourceTree = "<group>"; };
+		09A6EA131EFD7ADA008BFCBB /* WOW_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WOW_background.jpg; sourceTree = "<group>"; };
+		09A6EA141EFD7ADA008BFCBB /* the_flash_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_flash_background.jpg; sourceTree = "<group>"; };
+		09A6EA151EFD7ADA008BFCBB /* the_man_from_uncle_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_man_from_uncle_background.jpg; sourceTree = "<group>"; };
+		09A6EA161EFD7ADA008BFCBB /* background_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_mask.png; sourceTree = "<group>"; };
+		09A6EA171EFD7ADA008BFCBB /* suits_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suits_background.jpg; sourceTree = "<group>"; };
+		09A6EA181EFD7ADA008BFCBB /* common_law_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = common_law_background.jpg; sourceTree = "<group>"; };
+		09A6EA191EFD7ADA008BFCBB /* white_collar_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_collar_background.jpg; sourceTree = "<group>"; };
+		09A6EA1A1EFD7ADA008BFCBB /* POI_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = POI_background.jpg; sourceTree = "<group>"; };
+		09A6EA1B1EFD7ADA008BFCBB /* house_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house_background.jpg; sourceTree = "<group>"; };
+		09A6EA1C1EFD7ADA008BFCBB /* doctor_who_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doctor_who_background.jpg; sourceTree = "<group>"; };
+		09A6EA1D1EFD7ADA008BFCBB /* h5o_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h5o_background.jpg; sourceTree = "<group>"; };
+		09A6EA1E1EFD7ADA008BFCBB /* teen_wolf_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teen_wolf_background.jpg; sourceTree = "<group>"; };
+		09A6EA1F1EFD7ADA008BFCBB /* merlin_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = merlin_background.jpg; sourceTree = "<group>"; };
+		09A6EA201EFD7ADA008BFCBB /* NCIS_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NCIS_background.jpg; sourceTree = "<group>"; };
+		09A6EA211EFD7ADA008BFCBB /* SPN_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SPN_background.jpg; sourceTree = "<group>"; };
+		09A6EA221EFD7ADA008BFCBB /* sherlock_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock_background.jpg; sourceTree = "<group>"; };
+		09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CSI_background.jpg; sourceTree = "<group>"; };
+		09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = les_miserables_background.jpg; sourceTree = "<group>"; };
+		09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spider_man_background.jpg; sourceTree = "<group>"; };
+		09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harry_potter_background.jpg; sourceTree = "<group>"; };
+		09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pacific_rim_background.jpg; sourceTree = "<group>"; };
+		09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tolkien_background.jpg; sourceTree = "<group>"; };
+		09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007_background.jpg; sourceTree = "<group>"; };
+		09A6EA2A1EFD7ADA008BFCBB /* star_trek_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_trek_background.jpg; sourceTree = "<group>"; };
+		09A6EA2B1EFD7ADA008BFCBB /* mission_impossible_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mission_impossible_background.jpg; sourceTree = "<group>"; };
+		09A6EA2C1EFD7ADA008BFCBB /* x_men_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x_men_background.jpg; sourceTree = "<group>"; };
+		09A6EA2D1EFD7ADA008BFCBB /* TSN_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TSN_background.jpg; sourceTree = "<group>"; };
+		09A6EA2E1EFD7ADA008BFCBB /* inception_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inception_background.jpg; sourceTree = "<group>"; };
+		09A6EA2F1EFD7ADA008BFCBB /* DC_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DC_background.jpg; sourceTree = "<group>"; };
+		09A6EA301EFD7ADA008BFCBB /* avengers_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers_background.jpg; sourceTree = "<group>"; };
+		09A6EA311EFD7ADA008BFCBB /* kingsman_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingsman_background.jpg; sourceTree = "<group>"; };
+		09A6EA321EFD7ADA008BFCBB /* hannibal_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hannibal_background.jpg; sourceTree = "<group>"; };
+		09A6EA541EFF95B4008BFCBB /* sections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sections.json; sourceTree = "<group>"; };
+		09A6EA561EFFA348008BFCBB /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		09A6EA5C1EFFC465008BFCBB /* mtslash:NEXT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mtslash:NEXT_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A6EA5E1EFFC465008BFCBB /* mtslash_NEXT_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtslash_NEXT_Tests.swift; sourceTree = "<group>"; };
+		09A6EA601EFFC465008BFCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A6EA661EFFC84C008BFCBB /* homepage_Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage_Mask.png; sourceTree = "<group>"; };
 		09C02C311EF5836F00CF111F /* AccessPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessPoints.swift; sourceTree = "<group>"; };
 		09C02C341EF6256500CF111F /* stdAPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stdAPData.json; sourceTree = "<group>"; };
 		09C02C3A1EF6622F00CF111F /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
@@ -184,6 +270,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09A6EA591EFFC465008BFCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -191,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				09026BBB1ED3A4FE0047EEFF /* mtslash:NEXT */,
+				09A6EA5D1EFFC465008BFCBB /* mtslash:NEXT_Tests */,
 				09026BBA1ED3A4FE0047EEFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				09026BB91ED3A4FE0047EEFF /* mtslash:NEXT.app */,
+				09A6EA5C1EFFC465008BFCBB /* mtslash:NEXT_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +336,7 @@
 				09C02C421EF6BFF900CF111F /* ResponseHelper.swift */,
 				09C02C311EF5836F00CF111F /* AccessPoints.swift */,
 				091174721ED519A2009052A7 /* DocumentViewerHelper.swift */,
+				09A6EA561EFFA348008BFCBB /* Sections.swift */,
 			);
 			name = Misc;
 			sourceTree = "<group>";
@@ -275,24 +371,24 @@
 				09887E041EFAE110002D3FDC /* CSI_panel.jpg */,
 				09887E051EFAE110002D3FDC /* elementary_panel.jpg */,
 				09887E061EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg */,
-				09887E071EFAE110002D3FDC /* sherlock_holmes_book_panel.jpg */,
-				09887E081EFAE110002D3FDC /* sherlock_tv_2012_panel.jpg */,
+				09887E071EFAE110002D3FDC /* sherlock_holmes_books_panel.jpg */,
+				09887E081EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg */,
 				09887E091EFAE110002D3FDC /* star_wars_panel.jpg */,
-				09887E0A1EFAE110002D3FDC /* word_of_warcraft_panel.jpg */,
+				09887E0A1EFAE110002D3FDC /* WOW_panel.jpg */,
 				09887E0B1EFAE110002D3FDC /* the_man_from_uncle_panel.jpg */,
 				09887E0C1EFAE110002D3FDC /* les_miserables_panel.jpg */,
 				09887E0D1EFAE110002D3FDC /* kingsman_panel.jpg */,
 				09887E0E1EFAE110002D3FDC /* spider_man_panel.jpg */,
-				09887E0F1EFAE110002D3FDC /* harry_potter_panel.jpg */,
+				09887E0F1EFAE110002D3FDC /* HP_panel.jpg */,
 				09887E101EFAE110002D3FDC /* pacific_rim_panel.jpg */,
-				09887E111EFAE110002D3FDC /* the_hobbit_panel.jpg */,
+				09887E111EFAE110002D3FDC /* tolkien_panel.jpg */,
 				09887E121EFAE110002D3FDC /* 007_panel.jpg */,
 				09887E131EFAE110002D3FDC /* star_trek_panel.jpg */,
 				09887E141EFAE110002D3FDC /* mission_impossible_panel.jpg */,
 				09887E151EFAE110002D3FDC /* x_men_panel.jpg */,
-				09887E161EFAE110002D3FDC /* the_social_network_panel.jpg */,
+				09887E161EFAE110002D3FDC /* TSN_panel.jpg */,
 				09887E171EFAE110002D3FDC /* inception_panel.jpg */,
-				09887E181EFAE110002D3FDC /* dc_universe_panel.jpg */,
+				09887E181EFAE110002D3FDC /* DC_panel.jpg */,
 				09887E191EFAE110002D3FDC /* doctor_strange_panel.jpg */,
 				09887E1A1EFAE110002D3FDC /* hulk_panel.jpg */,
 				09887E1B1EFAE110002D3FDC /* antman_panel.jpg */,
@@ -322,12 +418,70 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
+		09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */,
+				09A6EA131EFD7ADA008BFCBB /* WOW_background.jpg */,
+				09A6EA141EFD7ADA008BFCBB /* the_flash_background.jpg */,
+				09A6EA151EFD7ADA008BFCBB /* the_man_from_uncle_background.jpg */,
+				09A6EA161EFD7ADA008BFCBB /* background_mask.png */,
+				09A6EA171EFD7ADA008BFCBB /* suits_background.jpg */,
+				09A6EA181EFD7ADA008BFCBB /* common_law_background.jpg */,
+				09A6EA191EFD7ADA008BFCBB /* white_collar_background.jpg */,
+				09A6EA1A1EFD7ADA008BFCBB /* POI_background.jpg */,
+				09A6EA1B1EFD7ADA008BFCBB /* house_background.jpg */,
+				09A6EA1C1EFD7ADA008BFCBB /* doctor_who_background.jpg */,
+				09A6EA1D1EFD7ADA008BFCBB /* h5o_background.jpg */,
+				09A6EA1E1EFD7ADA008BFCBB /* teen_wolf_background.jpg */,
+				09A6EA1F1EFD7ADA008BFCBB /* merlin_background.jpg */,
+				09A6EA201EFD7ADA008BFCBB /* NCIS_background.jpg */,
+				09A6EA211EFD7ADA008BFCBB /* SPN_background.jpg */,
+				09A6EA221EFD7ADA008BFCBB /* sherlock_background.jpg */,
+				09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */,
+				09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */,
+				09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */,
+				09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */,
+				09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */,
+				09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */,
+				09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */,
+				09A6EA2A1EFD7ADA008BFCBB /* star_trek_background.jpg */,
+				09A6EA2B1EFD7ADA008BFCBB /* mission_impossible_background.jpg */,
+				09A6EA2C1EFD7ADA008BFCBB /* x_men_background.jpg */,
+				09A6EA2D1EFD7ADA008BFCBB /* TSN_background.jpg */,
+				09A6EA2E1EFD7ADA008BFCBB /* inception_background.jpg */,
+				09A6EA2F1EFD7ADA008BFCBB /* DC_background.jpg */,
+				09A6EA301EFD7ADA008BFCBB /* avengers_background.jpg */,
+				09A6EA311EFD7ADA008BFCBB /* kingsman_background.jpg */,
+				09A6EA321EFD7ADA008BFCBB /* hannibal_background.jpg */,
+			);
+			name = "Section Backgrounds";
+			sourceTree = "<group>";
+		};
+		09A6EA5D1EFFC465008BFCBB /* mtslash:NEXT_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09A6EA5E1EFFC465008BFCBB /* mtslash_NEXT_Tests.swift */,
+				09A6EA601EFFC465008BFCBB /* Info.plist */,
+			);
+			path = "mtslash:NEXT_Tests";
+			sourceTree = "<group>";
+		};
+		09A6EA681EFFC84F008BFCBB /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				09A6EA661EFFC84C008BFCBB /* homepage_Mask.png */,
+			);
+			name = Masks;
+			sourceTree = "<group>";
+		};
 		09C02C331EF585BE00CF111F /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				09C02C341EF6256500CF111F /* stdAPData.json */,
 				09C02C3C1EF6680A00CF111F /* altAPData.json */,
 				09887E551EFBE23F002D3FDC /* slidingMenuItems.json */,
+				09A6EA541EFF95B4008BFCBB /* sections.json */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -364,6 +518,8 @@
 				095D8A031ED3F48800C18B4C /* password_input_page_background_sherlock.jpg */,
 				09C02C471EF77A9F00CF111F /* authentication_completed_page_background_avengers.jpg */,
 				09887DE91EF90B46002D3FDC /* homepage_background_protostar.jpg */,
+				09A6EA681EFFC84F008BFCBB /* Masks */,
+				09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */,
 			);
 			name = Backgrounds;
 			sourceTree = "<group>";
@@ -400,6 +556,24 @@
 			productReference = 09026BB91ED3A4FE0047EEFF /* mtslash:NEXT.app */;
 			productType = "com.apple.product-type.application";
 		};
+		09A6EA5B1EFFC465008BFCBB /* mtslash:NEXT_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A6EA631EFFC465008BFCBB /* Build configuration list for PBXNativeTarget "mtslash:NEXT_Tests" */;
+			buildPhases = (
+				09A6EA581EFFC465008BFCBB /* Sources */,
+				09A6EA591EFFC465008BFCBB /* Frameworks */,
+				09A6EA5A1EFFC465008BFCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A6EA621EFFC465008BFCBB /* PBXTargetDependency */,
+			);
+			name = "mtslash:NEXT_Tests";
+			productName = "mtslash:NEXT_Tests";
+			productReference = 09A6EA5C1EFFC465008BFCBB /* mtslash:NEXT_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -414,6 +588,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4Z73D5W9HK;
 						ProvisioningStyle = Automatic;
+					};
+					09A6EA5B1EFFC465008BFCBB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4Z73D5W9HK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09026BB81ED3A4FE0047EEFF;
 					};
 				};
 			};
@@ -431,6 +611,7 @@
 			projectRoot = "";
 			targets = (
 				09026BB81ED3A4FE0047EEFF /* mtslash:NEXT */,
+				09A6EA5B1EFFC465008BFCBB /* mtslash:NEXT_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -441,63 +622,105 @@
 			buildActionMask = 2147483647;
 			files = (
 				09887E2C1EFAE110002D3FDC /* kingsman_panel.jpg in Resources */,
+				09A6EA531EFD7ADA008BFCBB /* hannibal_background.jpg in Resources */,
+				09A6EA4F1EFD7ADA008BFCBB /* inception_background.jpg in Resources */,
+				09A6EA351EFD7ADA008BFCBB /* the_flash_background.jpg in Resources */,
 				09887E3F1EFAE110002D3FDC /* avengers_panel.jpg in Resources */,
+				09A6EA451EFD7ADA008BFCBB /* les_miserables_background.jpg in Resources */,
+				09A6EA3B1EFD7ADA008BFCBB /* POI_background.jpg in Resources */,
+				09A6EA4E1EFD7ADA008BFCBB /* TSN_background.jpg in Resources */,
 				095D8A041ED3F48900C18B4C /* password_input_page_background_sherlock.jpg in Resources */,
 				09887E331EFAE110002D3FDC /* mission_impossible_panel.jpg in Resources */,
 				09887E391EFAE110002D3FDC /* hulk_panel.jpg in Resources */,
 				09887DFB1EFAE101002D3FDC /* white_collar_panel.jpg in Resources */,
 				09887DF81EFAE101002D3FDC /* doctor_who_panel.jpg in Resources */,
 				09887E3C1EFAE110002D3FDC /* captain_america_panel.jpg in Resources */,
+				09A6EA401EFD7ADA008BFCBB /* merlin_background.jpg in Resources */,
 				09026BCA1ED3A4FE0047EEFF /* LaunchScreen.storyboard in Resources */,
-				09887E271EFAE110002D3FDC /* sherlock_tv_2012_panel.jpg in Resources */,
+				09887E271EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg in Resources */,
 				09887E001EFAE101002D3FDC /* suits_panel.jpg in Resources */,
-				09887E2E1EFAE110002D3FDC /* harry_potter_panel.jpg in Resources */,
+				09887E2E1EFAE110002D3FDC /* HP_panel.jpg in Resources */,
+				09A6EA4B1EFD7ADA008BFCBB /* star_trek_background.jpg in Resources */,
 				09C02C4E1EF7818A00CF111F /* check.png in Resources */,
 				09887E241EFAE110002D3FDC /* elementary_panel.jpg in Resources */,
 				09C02C3D1EF6680A00CF111F /* altAPData.json in Resources */,
 				09887E311EFAE110002D3FDC /* 007_panel.jpg in Resources */,
-				09887E261EFAE110002D3FDC /* sherlock_holmes_book_panel.jpg in Resources */,
+				09887E261EFAE110002D3FDC /* sherlock_holmes_books_panel.jpg in Resources */,
+				09A6EA341EFD7ADA008BFCBB /* WOW_background.jpg in Resources */,
+				09A6EA521EFD7ADA008BFCBB /* kingsman_background.jpg in Resources */,
+				09A6EA421EFD7ADA008BFCBB /* SPN_background.jpg in Resources */,
+				09A6EA331EFD7ADA008BFCBB /* star_wars_background.jpg in Resources */,
+				09A6EA4D1EFD7ADA008BFCBB /* x_men_background.jpg in Resources */,
 				09887E341EFAE110002D3FDC /* x_men_panel.jpg in Resources */,
 				09887E561EFBE23F002D3FDC /* slidingMenuItems.json in Resources */,
 				095D8A081ED3FC3D00C18B4C /* password.png in Resources */,
+				09A6EA391EFD7ADA008BFCBB /* common_law_background.jpg in Resources */,
+				09A6EA491EFD7ADA008BFCBB /* tolkien_background.jpg in Resources */,
 				09887E2B1EFAE110002D3FDC /* les_miserables_panel.jpg in Resources */,
 				09887E2D1EFAE110002D3FDC /* spider_man_panel.jpg in Resources */,
-				09887E291EFAE110002D3FDC /* word_of_warcraft_panel.jpg in Resources */,
-				09887E301EFAE110002D3FDC /* the_hobbit_panel.jpg in Resources */,
+				09887E291EFAE110002D3FDC /* WOW_panel.jpg in Resources */,
+				09887E301EFAE110002D3FDC /* tolkien_panel.jpg in Resources */,
 				09887E2F1EFAE110002D3FDC /* pacific_rim_panel.jpg in Resources */,
 				09887E231EFAE110002D3FDC /* CSI_panel.jpg in Resources */,
 				09026BD51ED3C1F60047EEFF /* Credits in Resources */,
 				09887DEA1EF90B46002D3FDC /* homepage_background_protostar.jpg in Resources */,
 				09C02C481EF77A9F00CF111F /* authentication_completed_page_background_avengers.jpg in Resources */,
-				09887E351EFAE110002D3FDC /* the_social_network_panel.jpg in Resources */,
+				09887E351EFAE110002D3FDC /* TSN_panel.jpg in Resources */,
 				09887E381EFAE110002D3FDC /* doctor_strange_panel.jpg in Resources */,
-				09887E371EFAE110002D3FDC /* dc_universe_panel.jpg in Resources */,
+				09887E371EFAE110002D3FDC /* DC_panel.jpg in Resources */,
+				09A6EA441EFD7ADA008BFCBB /* CSI_background.jpg in Resources */,
 				09026BC71ED3A4FE0047EEFF /* Assets.xcassets in Resources */,
+				09A6EA471EFD7ADA008BFCBB /* harry_potter_background.jpg in Resources */,
 				09887E221EFAE110002D3FDC /* SPN_panel.jpg in Resources */,
+				09A6EA3A1EFD7ADA008BFCBB /* white_collar_background.jpg in Resources */,
 				09887E281EFAE110002D3FDC /* star_wars_panel.jpg in Resources */,
+				09A6EA481EFD7ADA008BFCBB /* pacific_rim_background.jpg in Resources */,
+				09A6EA361EFD7ADA008BFCBB /* the_man_from_uncle_background.jpg in Resources */,
 				09887E251EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg in Resources */,
+				09A6EA501EFD7ADA008BFCBB /* DC_background.jpg in Resources */,
 				09026BD31ED3C1AD0047EEFF /* slash_full.png in Resources */,
 				095D89FF1ED3E4D900C18B4C /* id_card.png in Resources */,
 				09887E3D1EFAE110002D3FDC /* thor_general.jpg in Resources */,
+				09A6EA411EFD7ADA008BFCBB /* NCIS_background.jpg in Resources */,
 				09887E3B1EFAE110002D3FDC /* guardians_of_the_galaxy_panel.jpg in Resources */,
 				095D89FD1ED3E44600C18B4C /* username_input_page_background_st.jpg in Resources */,
+				09A6EA3D1EFD7ADA008BFCBB /* doctor_who_background.jpg in Resources */,
 				09887DFC1EFAE101002D3FDC /* house_panel.jpg in Resources */,
+				09A6EA461EFD7ADA008BFCBB /* spider_man_background.jpg in Resources */,
 				09887DF91EFAE101002D3FDC /* h5o_panel.jpg in Resources */,
 				09026BC21ED3A4FE0047EEFF /* Main.storyboard in Resources */,
 				09C02C351EF6256500CF111F /* stdAPData.json in Resources */,
 				09887E211EFAE110002D3FDC /* NCIS_panel.jpg in Resources */,
+				09A6EA4A1EFD7ADA008BFCBB /* 007_background.jpg in Resources */,
+				09A6EA3E1EFD7ADA008BFCBB /* h5o_background.jpg in Resources */,
+				09A6EA371EFD7ADA008BFCBB /* background_mask.png in Resources */,
 				09887E011EFAE101002D3FDC /* merlin_panel.jpg in Resources */,
 				095D89F91ED3C97700C18B4C /* coverImage.jpg in Resources */,
 				09887DFA1EFAE101002D3FDC /* teen_wolf_panel.jpg in Resources */,
 				09887DF71EFAE101002D3FDC /* the_flash_panel.jpg in Resources */,
 				09887E361EFAE110002D3FDC /* inception_panel.jpg in Resources */,
+				09A6EA511EFD7ADA008BFCBB /* avengers_background.jpg in Resources */,
 				09887DFD1EFAE101002D3FDC /* hannibal_panel.jpg in Resources */,
 				09887E321EFAE110002D3FDC /* star_trek_panel.jpg in Resources */,
+				09A6EA381EFD7ADA008BFCBB /* suits_background.jpg in Resources */,
+				09A6EA3F1EFD7ADA008BFCBB /* teen_wolf_background.jpg in Resources */,
 				09887E3E1EFAE110002D3FDC /* iron_man_panel.jpg in Resources */,
+				09A6EA671EFFC84C008BFCBB /* homepage_Mask.png in Resources */,
+				09A6EA4C1EFD7ADA008BFCBB /* mission_impossible_background.jpg in Resources */,
 				09887DFF1EFAE101002D3FDC /* common_law_panel.jpg in Resources */,
 				09887E3A1EFAE110002D3FDC /* antman_panel.jpg in Resources */,
 				09887DFE1EFAE101002D3FDC /* poi_panel.jpg in Resources */,
+				09A6EA431EFD7ADA008BFCBB /* sherlock_background.jpg in Resources */,
+				09A6EA551EFF95B4008BFCBB /* sections.json in Resources */,
+				09A6EA3C1EFD7ADA008BFCBB /* house_background.jpg in Resources */,
 				09887E2A1EFAE110002D3FDC /* the_man_from_uncle_panel.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A6EA5A1EFFC465008BFCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +732,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095D8A021ED3E6D000C18B4C /* fromCoverPageToUsernameInputPage.swift in Sources */,
+				09A6EA571EFFA348008BFCBB /* Sections.swift in Sources */,
 				09C02C3B1EF6622F00CF111F /* RequestHelper.swift in Sources */,
 				095D8A061ED3F67B00C18B4C /* PasswordInputPageViewController.swift in Sources */,
 				091174731ED519A2009052A7 /* DocumentViewerHelper.swift in Sources */,
@@ -534,7 +758,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09A6EA581EFFC465008BFCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A6EA5F1EFFC465008BFCBB /* mtslash_NEXT_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A6EA621EFFC465008BFCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09026BB81ED3A4FE0047EEFF /* mtslash:NEXT */;
+			targetProxy = 09A6EA611EFFC465008BFCBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09026BC01ED3A4FE0047EEFF /* Main.storyboard */ = {
@@ -677,6 +917,34 @@
 			};
 			name = Release;
 		};
+		09A6EA641EFFC465008BFCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Z73D5W9HK;
+				INFOPLIST_FILE = "mtslash:NEXT_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelawyu.mtslash-NEXT-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mtslash:NEXT.app/mtslash:NEXT";
+			};
+			name = Debug;
+		};
+		09A6EA651EFFC465008BFCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Z73D5W9HK;
+				INFOPLIST_FILE = "mtslash:NEXT_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelawyu.mtslash-NEXT-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mtslash:NEXT.app/mtslash:NEXT";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,6 +965,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		09A6EA631EFFC465008BFCBB /* Build configuration list for PBXNativeTarget "mtslash:NEXT_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A6EA641EFFC465008BFCBB /* Debug */,
+				09A6EA651EFFC465008BFCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

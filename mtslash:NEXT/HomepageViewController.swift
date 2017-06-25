@@ -14,14 +14,16 @@ class HomepageViewController: UIViewController {
     @IBOutlet weak var homepageBackgroundMaskImageView: UIImageView!
     @IBOutlet weak var slidingMenuView: UIView!
     @IBOutlet weak var slidingMenuSubtitleLabel: UILabel!
+    @IBOutlet weak var viewReadingListButton: UIButton!
+    @IBOutlet weak var searchButton: UIButton!
     
     var slidingMenuButtons : [ SlidingMenuButton ] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         collectSlidingMenuButtons()
-        refreshSlidingMenuButtons()
+        updateSlidingMenuButtons()
         for button in slidingMenuButtons {
             button.addTarget(self, action: #selector(slidingMenuButtonPressed(sender:)), for: UIControlEvents.touchUpInside)
         }
