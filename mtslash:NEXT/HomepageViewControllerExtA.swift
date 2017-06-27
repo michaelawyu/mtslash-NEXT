@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Extension of HomepageViewController of homepage initialization funcs
+
 extension HomepageViewController {
     
     // A func for collecting all buttons from the sliding menu into a sorted array
@@ -45,5 +47,13 @@ extension HomepageViewController {
         }
         
         slidingMenuSubtitleLabel.text = slidingMenuItems.last!["subtitle"]!
+    }
+    
+    func updateBackground() {
+        
+    }
+    
+    func updateSectionDetailPanel() {
+        
     }
 }

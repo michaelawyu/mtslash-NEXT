@@ -27,14 +27,16 @@ class HomepageBackgroundImageHandler {
                 allBackgroundImages.append(backgroundImageFilename)
             }
         }
-        let subsectionsInMovieFanfic = Sections.sections["mov"]!["subsections"]! as! [String]
+        var subsectionsInMovieFanfic = Sections.sections["mov_tre"]!["categories"]! as! [String]
+        subsectionsInMovieFanfic.append("mov_avengers")
         for subsection in subsectionsInMovieFanfic {
             if let backgroundImageFilename = sections[subsection]!["background_image"] as? String {
                 movieBackgroundImages.append(backgroundImageFilename)
             }
         }
         
-        let subsectionsInTVFanfic = Sections.sections["tv"]!["subsections"]! as! [String]
+        var subsectionsInTVFanfic = Sections.sections["tv_tre"]!["categories"]! as! [String]
+        subsectionsInTVFanfic.append("tv_sherlock")
         for subsection in subsectionsInTVFanfic {
             if let backgroundImageFilename = sections[subsection]!["background_image"] as? String {
                 tvBackgroundImages.append(backgroundImageFilename)

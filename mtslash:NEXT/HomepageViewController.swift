@@ -16,6 +16,9 @@ class HomepageViewController: UIViewController {
     @IBOutlet weak var slidingMenuSubtitleLabel: UILabel!
     @IBOutlet weak var viewReadingListButton: UIButton!
     @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var sectionDetailViewContainer: UIView!
+    @IBOutlet var sectionDetailView: SectionDetailView!
+    @IBOutlet var spotlightDetailView: SpotlightDetailView!
     
     var slidingMenuButtons : [ SlidingMenuButton ] = []
     
@@ -27,6 +30,9 @@ class HomepageViewController: UIViewController {
         for button in slidingMenuButtons {
             button.addTarget(self, action: #selector(slidingMenuButtonPressed(sender:)), for: UIControlEvents.touchUpInside)
         }
+        SpotlightDetailHandler.activeSpotlightDetailViewHandler.updateSpotlightDetailView()
+        sectionDetailViewContainer.addSubview(spotlightDetailView)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,18 +8,23 @@
 
 import Foundation
 
+// A class for handling sliding menu
+
 class SlidingMenuHandler {
     
+    // Singleton
     static let activeSlidingMenuHandler = SlidingMenuHandler()
     
     var slidingMenuItems : [[String : String]] = []
     
     private init() {
+        // Load sliding menu items from file
         let slidingMenuItemsDataURL = Bundle.main.url(forResource: "slidingMenuItems", withExtension: "json")!
         let slidingMenuItemsData = try! Data(contentsOf: slidingMenuItemsDataURL)
         slidingMenuItems = (try! JSONSerialization.jsonObject(with: slidingMenuItemsData, options: [])) as! [[String : String]]
     }
     
+    // Update the order of sliding menu items when a specific item is focused (selected).
     func focusAt(index : Int) {
         if index == slidingMenuItems.endIndex {
             return

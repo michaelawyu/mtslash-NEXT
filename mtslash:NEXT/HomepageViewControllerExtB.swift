@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Extension of HomepageViewController for sliding menu related animations
+
 extension HomepageViewController {
     
     func slidingMenuButtonPressed(sender : SlidingMenuButton) {
