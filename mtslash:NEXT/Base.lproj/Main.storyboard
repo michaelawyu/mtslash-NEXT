@@ -823,12 +823,18 @@
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="Search"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-kt-y40">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Bhs-kt-y40">
                                 <rect key="frame" x="329" y="25" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="VFU-Pn-gDz"/>
                                     <constraint firstAttribute="width" constant="30" id="fcf-s1-wI5"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-B4-qQh">
                                 <rect key="frame" x="0.0" y="493" width="375" height="170"/>
@@ -838,7 +844,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="o9B-Sy-RR7" firstAttribute="top" secondItem="Baj-oC-oFB" secondAttribute="bottom" id="0Ei-Fu-axB"/>
                             <constraint firstItem="Nq8-i8-fKB" firstAttribute="leading" secondItem="lZW-Kv-miC" secondAttribute="leadingMargin" id="2np-8R-R0Q"/>
@@ -867,13 +873,16 @@
                     <connections>
                         <outlet property="homepageBackgroundImageView" destination="bkj-Wq-4dc" id="2Ng-F8-a8e"/>
                         <outlet property="homepageBackgroundMaskImageView" destination="Baj-oC-oFB" id="kLp-Lv-OGz"/>
+                        <outlet property="logoImageView" destination="Nq8-i8-fKB" id="xHr-AZ-Ocz"/>
+                        <outlet property="profileImageView" destination="Bhs-kt-y40" id="v2t-vR-6mA"/>
                         <outlet property="searchButton" destination="OIw-tN-by4" id="Qi8-Pc-Oy2"/>
                         <outlet property="sectionDetailView" destination="Xwd-fP-92P" id="wew-XW-lLv"/>
-                        <outlet property="sectionDetailViewContainer" destination="ZBc-B4-qQh" id="mk2-dQ-dce"/>
+                        <outlet property="slidingMenuDetailViewContainer" destination="ZBc-B4-qQh" id="fcM-FC-3dD"/>
                         <outlet property="slidingMenuSubtitleLabel" destination="wEb-MP-XSP" id="DvF-tf-qXz"/>
                         <outlet property="slidingMenuView" destination="jev-Qf-aio" id="Aqo-tB-oac"/>
                         <outlet property="spotlightDetailView" destination="tL8-m6-5DP" id="JJz-se-apV"/>
                         <outlet property="viewReadingListButton" destination="osk-pb-dLY" id="pLI-7Y-zh9"/>
+                        <segue destination="s9C-gP-ISu" kind="custom" identifier="fromHomepageToSearchPage" customClass="fromHomepageToSearchPage" customModule="mtslash_NEXT" customModuleProvider="target" id="44Q-Bo-tCc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzA-ZM-3bV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1104,10 +1113,10 @@
             </objects>
             <point key="canvasLocation" x="3053.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Page View Controller-->
         <scene sceneID="Vdl-xw-xYc">
             <objects>
-                <viewController id="s9C-gP-ISu" sceneMemberID="viewController">
+                <viewController id="s9C-gP-ISu" customClass="SearchPageViewController" customModule="mtslash_NEXT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TXs-Zo-a4f"/>
                         <viewControllerLayoutGuide type="bottom" id="P8J-gu-9ND"/>
@@ -1123,6 +1132,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-br-m08">
                                 <rect key="frame" x="329" y="25" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-bK-ZDp">
                                 <rect key="frame" x="284" y="25" width="30" height="30"/>

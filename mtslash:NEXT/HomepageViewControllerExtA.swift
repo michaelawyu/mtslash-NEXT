@@ -8,11 +8,11 @@
 
 import UIKit
 
-// Extension of HomepageViewController of homepage initialization funcs
-
+// Extension of HomepageViewController 
+// Includes funcs for homepage initializations
 extension HomepageViewController {
     
-    // A func for collecting all buttons from the sliding menu into a sorted array
+    // A func for collecting all the buttons from the sliding menu into a sorted array
     func collectSlidingMenuButtons() {
         let subviews = slidingMenuView.subviews
         

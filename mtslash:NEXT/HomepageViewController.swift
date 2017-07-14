@@ -12,11 +12,13 @@ class HomepageViewController: UIViewController {
     
     @IBOutlet weak var homepageBackgroundImageView: UIImageView!
     @IBOutlet weak var homepageBackgroundMaskImageView: UIImageView!
+    @IBOutlet weak var logoImageView: UIImageView!
     @IBOutlet weak var slidingMenuView: UIView!
     @IBOutlet weak var slidingMenuSubtitleLabel: UILabel!
     @IBOutlet weak var viewReadingListButton: UIButton!
     @IBOutlet weak var searchButton: UIButton!
-    @IBOutlet weak var sectionDetailViewContainer: UIView!
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var slidingMenuDetailViewContainer: UIView!
     @IBOutlet var sectionDetailView: SectionDetailView!
     @IBOutlet var spotlightDetailView: SpotlightDetailView!
     
@@ -25,30 +27,29 @@ class HomepageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Collect and update all the slidingMenuButtons
         collectSlidingMenuButtons()
         updateSlidingMenuButtons()
-        for button in slidingMenuButtons {
-            button.addTarget(self, action: #selector(slidingMenuButtonPressed(sender:)), for: UIControlEvents.touchUpInside)
-        }
-        SpotlightDetailHandler.activeSpotlightDetailViewHandler.updateSpotlightDetailView()
-        sectionDetailViewContainer.addSubview(spotlightDetailView)
         
+        // Reset sliding menu items
+        SlidingMenuHandler.activeSlidingMenuHandler.reset()
+        
+        // Set target action of all slidingMenuButtons
+        for button in slidingMenuButtons {
+            button.addTarget(self, action: #selector(slidingMenuButtonPressed(sender:)), for: .touchUpInside)
+        }
+        
+        // Set target action for viewReadingListButton and searchButton
+        viewReadingListButton.addTarget(self, action: #selector(viewReadingListButtonPressed(sender:)), for: .touchUpInside)
+        searchButton.addTarget(self, action: #selector(searchButtonPressed(sender:)), for: .touchUpInside)
+        
+        // Set the content of slidingMenuDetailViewContainer
+        SlidingMenuHandler.activeSlidingMenuHandler.updateSlidingMenuDetailView(homepage: self)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

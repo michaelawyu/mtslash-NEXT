@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Extension of HomepageViewController
+// Includes funcs for supporting the collection view in spotlightDetailView
 extension HomepageViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -23,15 +25,15 @@ extension HomepageViewController: UICollectionViewDataSource, UICollectionViewDe
         // Not implemented; sample code only
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "spotlightPanelCollectionViewCell", for: indexPath) as! SpotlightPanelCollectionViewCell
         cell.decorate()
-        cell.spotlightItem = SpotlightDetailHandler.activeSpotlightDetailViewHandler.spotlightItems.first!
+        cell.spotlightItem = SpotlightDetailViewHandler.activeSpotlightDetailViewHandler.spotlightItems.first!
         
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         // Not implemented; sample code only
-        let spotlightItem = SpotlightDetailHandler.activeSpotlightDetailViewHandler.spotlightItems[indexPath[1]]
-        SpotlightDetailHandler.viewSpotlightItemContent(viewController: self, spotlightItem: spotlightItem)
+        let spotlightItem = SpotlightDetailViewHandler.activeSpotlightDetailViewHandler.spotlightItems[indexPath[1]]
+        SpotlightDetailViewHandler.viewSpotlightItemContent(viewController: self, spotlightItem: spotlightItem)
     }
     
 }

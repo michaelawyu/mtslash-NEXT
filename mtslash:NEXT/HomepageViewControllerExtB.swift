@@ -8,8 +8,8 @@
 
 import UIKit
 
-// Extension of HomepageViewController for sliding menu related animations
-
+// Extension of HomepageViewController
+// Includes funcs for sliding menu related animations
 extension HomepageViewController {
     
     func slidingMenuButtonPressed(sender : SlidingMenuButton) {
@@ -24,19 +24,18 @@ extension HomepageViewController {
             UIView.animate(withDuration: 0.8, animations: {
                 self.slidingMenuSubtitleLabel.alpha = 0.0
             }, completion: { (ifCompleted) in
-                // Update and reveal subtitle of sliding menu
-                
                 // Set text color of label
                 if alphaForMask == 0.0 {
                     self.slidingMenuSubtitleLabel.textColor = UIColor.black
                 } else {
                     self.slidingMenuSubtitleLabel.textColor = UIColor.white
                 }
-                
-                // Reveal subtitle
-                UIView.animate(withDuration: 0.6, animations: {
-                    self.slidingMenuSubtitleLabel.alpha = 1.0
-                })
+                // slidingMenuSubtitleLabel is updated and revealed after all the slidingMenuButtons are reorganized
+            })
+            
+            // Fade out slidingMenuDetailView
+            UIView.animate(withDuration: 0.8, animations: {
+                self.slidingMenuDetailViewContainer.alpha = 0.0
             })
             
             // Fade out viewReadingList and search buttons
@@ -72,8 +71,13 @@ extension HomepageViewController {
                     
                 }, completion: { (ifCompleted) in
                     
-                    // Update and move in all buttons of the sliding menu when the last animation block is executed
+                    // Update and move in all buttons of the sliding menu when the last button is moved out
                     if i == self.slidingMenuButtons.endIndex - 1 {
+                        
+                        // Reveal subtitle
+                        UIView.animate(withDuration: 0.6, animations: {
+                            self.slidingMenuSubtitleLabel.alpha = 1.0
+                        })
                         
                         // Select new text colors for buttons
                         let colorForMainButton = alphaForMask == 0.0 ? UIColor.black : UIColor.white
@@ -82,6 +86,12 @@ extension HomepageViewController {
                         // Refocus buttons
                         SlidingMenuHandler.activeSlidingMenuHandler.focusAt(index: sender.menuItemOrder)
                         self.updateSlidingMenuButtons()
+                        
+                        // Update and reveal slidingMenuDetailView
+                        SlidingMenuHandler.activeSlidingMenuHandler.updateSlidingMenuDetailView(homepage: self)
+                        UIView.animate(withDuration: 0.6, animations: {
+                            self.slidingMenuDetailViewContainer.alpha = 1.0
+                        })
                         
                         for j in 0..<self.slidingMenuButtons.endIndex {
                             let button = self.slidingMenuButtons[j]

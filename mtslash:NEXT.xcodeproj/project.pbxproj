@@ -97,7 +97,7 @@
 		09A6EA441EFD7ADA008BFCBB /* CSI_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */; };
 		09A6EA451EFD7ADA008BFCBB /* les_miserables_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */; };
 		09A6EA461EFD7ADA008BFCBB /* spider_man_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */; };
-		09A6EA471EFD7ADA008BFCBB /* harry_potter_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */; };
+		09A6EA471EFD7ADA008BFCBB /* HP_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA261EFD7ADA008BFCBB /* HP_background.jpg */; };
 		09A6EA481EFD7ADA008BFCBB /* pacific_rim_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */; };
 		09A6EA491EFD7ADA008BFCBB /* tolkien_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */; };
 		09A6EA4A1EFD7ADA008BFCBB /* 007_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */; };
@@ -133,6 +133,10 @@
 		09C02C4E1EF7818A00CF111F /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C02C4D1EF7818A00CF111F /* check.png */; };
 		09C02C501EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C4F1EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift */; };
 		09C02C541EF7ACFE00CF111F /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C02C531EF7ACFE00CF111F /* HomepageViewController.swift */; };
+		09F1C3A41F1619B4006AF825 /* SectionDetailViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A31F1619B4006AF825 /* SectionDetailViewHandler.swift */; };
+		09F1C3A61F18B3B1006AF825 /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */; };
+		09F1C3A81F18B423006AF825 /* fromHomepageToSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */; };
+		09F1C3AD1F18B585006AF825 /* HomepageViewControllerExtD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,7 +242,7 @@
 		09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CSI_background.jpg; sourceTree = "<group>"; };
 		09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = les_miserables_background.jpg; sourceTree = "<group>"; };
 		09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spider_man_background.jpg; sourceTree = "<group>"; };
-		09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harry_potter_background.jpg; sourceTree = "<group>"; };
+		09A6EA261EFD7ADA008BFCBB /* HP_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HP_background.jpg; sourceTree = "<group>"; };
 		09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pacific_rim_background.jpg; sourceTree = "<group>"; };
 		09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tolkien_background.jpg; sourceTree = "<group>"; };
 		09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007_background.jpg; sourceTree = "<group>"; };
@@ -276,6 +280,10 @@
 		09C02C4D1EF7818A00CF111F /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		09C02C4F1EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromPasswordInputPageToAuthenticationCompletedPage.swift; sourceTree = "<group>"; };
 		09C02C531EF7ACFE00CF111F /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		09F1C3A31F1619B4006AF825 /* SectionDetailViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionDetailViewHandler.swift; sourceTree = "<group>"; };
+		09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromHomepageToSearchPage.swift; sourceTree = "<group>"; };
+		09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewControllerExtD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,8 +331,7 @@
 				0911746D1ED50C76009052A7 /* Misc */,
 				09026BD11ED3C03B0047EEFF /* Res */,
 				09026BBC1ED3A4FE0047EEFF /* AppDelegate.swift */,
-				09C02C441EF7755A00CF111F /* ViewControllers (Startup) */,
-				09C02C521EF7ACD800CF111F /* ViewControllers (Core) */,
+				09F1C3A91F18B456006AF825 /* View Controllers */,
 				095D8A001ED3E6B900C18B4C /* Custom Segues */,
 				09026BC61ED3A4FE0047EEFF /* Assets.xcassets */,
 				09026BC81ED3A4FE0047EEFF /* LaunchScreen.storyboard */,
@@ -338,9 +345,11 @@
 		09026BD11ED3C03B0047EEFF /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				09A6EA681EFFC84F008BFCBB /* Masks */,
+				09C02C4C1EF77F3500CF111F /* Page Backgrounds */,
+				09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */,
 				09887DEB1EFAC4D4002D3FDC /* Panel Backgrounds */,
 				09C02C4B1EF77F2600CF111F /* Icons */,
-				09C02C4C1EF77F3500CF111F /* Backgrounds */,
 			);
 			name = Res;
 			sourceTree = "<group>";
@@ -365,6 +374,7 @@
 				095D8A091ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift */,
 				091174741ED523E3009052A7 /* fromPasswordInputPageToUsernameInputPage.swift */,
 				09C02C4F1EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift */,
+				09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */,
 			);
 			name = "Custom Segues";
 			sourceTree = "<group>";
@@ -425,6 +435,7 @@
 				09887E461EFAF3C7002D3FDC /* SlidingMenuHandler.swift */,
 				09887E481EFAF498002D3FDC /* HomepageBackgroundImageHandler.swift */,
 				09BA48BC1F026712009CA04A /* SpotlightDetailViewHandler.swift */,
+				09F1C3A31F1619B4006AF825 /* SectionDetailViewHandler.swift */,
 			);
 			name = Handlers;
 			sourceTree = "<group>";
@@ -463,7 +474,7 @@
 				09A6EA231EFD7ADA008BFCBB /* CSI_background.jpg */,
 				09A6EA241EFD7ADA008BFCBB /* les_miserables_background.jpg */,
 				09A6EA251EFD7ADA008BFCBB /* spider_man_background.jpg */,
-				09A6EA261EFD7ADA008BFCBB /* harry_potter_background.jpg */,
+				09A6EA261EFD7ADA008BFCBB /* HP_background.jpg */,
 				09A6EA271EFD7ADA008BFCBB /* pacific_rim_background.jpg */,
 				09A6EA281EFD7ADA008BFCBB /* tolkien_background.jpg */,
 				09A6EA291EFD7ADA008BFCBB /* 007_background.jpg */,
@@ -517,7 +528,7 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
-		09C02C441EF7755A00CF111F /* ViewControllers (Startup) */ = {
+		09C02C441EF7755A00CF111F /* Startup Pages */ = {
 			isa = PBXGroup;
 			children = (
 				09026BBE1ED3A4FE0047EEFF /* CoverPageViewController.swift */,
@@ -527,7 +538,7 @@
 				095D8A0B1ED4D3A700C18B4C /* WebDocumentPageViewController.swift */,
 				09C02C451EF7763800CF111F /* AuthenticationCompletedPageViewController.swift */,
 			);
-			name = "ViewControllers (Startup)";
+			name = "Startup Pages";
 			sourceTree = "<group>";
 		};
 		09C02C4B1EF77F2600CF111F /* Icons */ = {
@@ -541,7 +552,7 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
-		09C02C4C1EF77F3500CF111F /* Backgrounds */ = {
+		09C02C4C1EF77F3500CF111F /* Page Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
 				095D89F81ED3C97700C18B4C /* coverImage.jpg */,
@@ -549,13 +560,11 @@
 				095D8A031ED3F48800C18B4C /* password_input_page_background_sherlock.jpg */,
 				09C02C471EF77A9F00CF111F /* authentication_completed_page_background_avengers.jpg */,
 				09887DE91EF90B46002D3FDC /* homepage_background_protostar.jpg */,
-				09A6EA681EFFC84F008BFCBB /* Masks */,
-				09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */,
 			);
-			name = Backgrounds;
+			name = "Page Backgrounds";
 			sourceTree = "<group>";
 		};
-		09C02C521EF7ACD800CF111F /* ViewControllers (Core) */ = {
+		09C02C521EF7ACD800CF111F /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
 				09887E4C1EFBBD21002D3FDC /* Custom Views */,
@@ -564,8 +573,19 @@
 				09887E511EFBC4B7002D3FDC /* HomepageViewControllerExtA.swift */,
 				09887E571EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift */,
 				09BA48AE1F00E7D6009CA04A /* HomepageViewControllerExtC.swift */,
+				09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */,
 			);
-			name = "ViewControllers (Core)";
+			name = Homepage;
+			sourceTree = "<group>";
+		};
+		09F1C3A91F18B456006AF825 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */,
+				09C02C521EF7ACD800CF111F /* Homepage */,
+				09C02C441EF7755A00CF111F /* Startup Pages */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -703,7 +723,7 @@
 				09887E371EFAE110002D3FDC /* DC_panel.jpg in Resources */,
 				09A6EA441EFD7ADA008BFCBB /* CSI_background.jpg in Resources */,
 				09026BC71ED3A4FE0047EEFF /* Assets.xcassets in Resources */,
-				09A6EA471EFD7ADA008BFCBB /* harry_potter_background.jpg in Resources */,
+				09A6EA471EFD7ADA008BFCBB /* HP_background.jpg in Resources */,
 				09887E221EFAE110002D3FDC /* SPN_panel.jpg in Resources */,
 				09A6EA3A1EFD7ADA008BFCBB /* white_collar_background.jpg in Resources */,
 				09887E281EFAE110002D3FDC /* star_wars_panel.jpg in Resources */,
@@ -770,6 +790,8 @@
 				09C02C3B1EF6622F00CF111F /* RequestHelper.swift in Sources */,
 				095D8A061ED3F67B00C18B4C /* PasswordInputPageViewController.swift in Sources */,
 				09BA48BF1F028979009CA04A /* SpotlightItem.swift in Sources */,
+				09F1C3A61F18B3B1006AF825 /* SearchPageViewController.swift in Sources */,
+				09F1C3AD1F18B585006AF825 /* HomepageViewControllerExtD.swift in Sources */,
 				09BA48B91F02659F009CA04A /* SpotlightDetailView.swift in Sources */,
 				09BA48B31F00EB14009CA04A /* SpotlightPanelCollectionViewCell.swift in Sources */,
 				091174731ED519A2009052A7 /* DocumentViewerHelper.swift in Sources */,
@@ -786,10 +808,12 @@
 				09026BBF1ED3A4FE0047EEFF /* CoverPageViewController.swift in Sources */,
 				09026BC51ED3A4FE0047EEFF /* mtslash_NEXT.xcdatamodeld in Sources */,
 				09887E471EFAF3C7002D3FDC /* SlidingMenuHandler.swift in Sources */,
+				09F1C3A81F18B423006AF825 /* fromHomepageToSearchPage.swift in Sources */,
 				09887E521EFBC4B7002D3FDC /* HomepageViewControllerExtA.swift in Sources */,
 				09026BBD1ED3A4FE0047EEFF /* AppDelegate.swift in Sources */,
 				095D8A0A1ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift in Sources */,
 				09887E581EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift in Sources */,
+				09F1C3A41F1619B4006AF825 /* SectionDetailViewHandler.swift in Sources */,
 				09C02C431EF6BFF900CF111F /* ResponseHelper.swift in Sources */,
 				095D8A0C1ED4D3A700C18B4C /* WebDocumentPageViewController.swift in Sources */,
 				09C02C501EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift in Sources */,

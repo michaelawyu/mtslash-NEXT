@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 
-class SpotlightDetailHandler {
+class SpotlightDetailViewHandler {
     
-    static let activeSpotlightDetailViewHandler = SpotlightDetailHandler()
+    // Singleton
+    static let activeSpotlightDetailViewHandler = SpotlightDetailViewHandler()
     
     private init() {}
     
@@ -24,7 +25,7 @@ class SpotlightDetailHandler {
         spotlightItems.removeAll()
         
         // Insert a new spotlight panel
-        let sampleSpotlightItem = SpotlightItem(itemType: .HelpAndSupport, sectionIndex: "reserved", title: "使用指南", link: "http://www.bing.com")
+        let sampleSpotlightItem = SpotlightItem(itemType: .HelpAndSupport, sectionIndex: "reserved", title: "使用指南", link: "http://www.mtslash.net")
         spotlightItems.append(sampleSpotlightItem)
     }
     
