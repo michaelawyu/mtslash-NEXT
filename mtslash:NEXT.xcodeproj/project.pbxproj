@@ -137,6 +137,8 @@
 		09F1C3A61F18B3B1006AF825 /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */; };
 		09F1C3A81F18B423006AF825 /* fromHomepageToSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */; };
 		09F1C3AD1F18B585006AF825 /* HomepageViewControllerExtD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */; };
+		09F1C3B11F192974006AF825 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09F1C3B01F192974006AF825 /* c.jpg */; };
+		09F1C3B51F1A6BBC006AF825 /* movie_fanfic_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +286,8 @@
 		09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
 		09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromHomepageToSearchPage.swift; sourceTree = "<group>"; };
 		09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewControllerExtD.swift; sourceTree = "<group>"; };
+		09F1C3B01F192974006AF825 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
+		09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie_fanfic_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +329,7 @@
 		09026BBB1ED3A4FE0047EEFF /* mtslash:NEXT */ = {
 			isa = PBXGroup;
 			children = (
+				09F1C3B01F192974006AF825 /* c.jpg */,
 				09026BC01ED3A4FE0047EEFF /* Main.storyboard */,
 				09BA48C21F02899A009CA04A /* Models */,
 				09C02C331EF585BE00CF111F /* Data */,
@@ -345,9 +350,10 @@
 		09026BD11ED3C03B0047EEFF /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				09F1C3B31F1A6B91006AF825 /* Section Backgrounds */,
 				09A6EA681EFFC84F008BFCBB /* Masks */,
 				09C02C4C1EF77F3500CF111F /* Page Backgrounds */,
-				09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */,
+				09A6EA111EFD7AC5008BFCBB /* Sliding Menu Backgrounds */,
 				09887DEB1EFAC4D4002D3FDC /* Panel Backgrounds */,
 				09C02C4B1EF77F2600CF111F /* Icons */,
 			);
@@ -451,7 +457,7 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
-		09A6EA111EFD7AC5008BFCBB /* Section Backgrounds */ = {
+		09A6EA111EFD7AC5008BFCBB /* Sliding Menu Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
 				09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */,
@@ -488,7 +494,7 @@
 				09A6EA311EFD7ADA008BFCBB /* kingsman_background.jpg */,
 				09A6EA321EFD7ADA008BFCBB /* hannibal_background.jpg */,
 			);
-			name = "Section Backgrounds";
+			name = "Sliding Menu Backgrounds";
 			sourceTree = "<group>";
 		};
 		09A6EA5D1EFFC465008BFCBB /* mtslash:NEXT_Tests */ = {
@@ -586,6 +592,14 @@
 				09C02C441EF7755A00CF111F /* Startup Pages */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		09F1C3B31F1A6B91006AF825 /* Section Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */,
+			);
+			name = "Section Backgrounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -688,6 +702,7 @@
 				09887DF81EFAE101002D3FDC /* doctor_who_panel.jpg in Resources */,
 				09887E3C1EFAE110002D3FDC /* captain_america_panel.jpg in Resources */,
 				09A6EA401EFD7ADA008BFCBB /* merlin_background.jpg in Resources */,
+				09F1C3B51F1A6BBC006AF825 /* movie_fanfic_background.jpg in Resources */,
 				09026BCA1ED3A4FE0047EEFF /* LaunchScreen.storyboard in Resources */,
 				09887E271EFAE110002D3FDC /* sherlock_tv_2010_panel.jpg in Resources */,
 				09887E001EFAE101002D3FDC /* suits_panel.jpg in Resources */,
@@ -732,6 +747,7 @@
 				09887E251EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg in Resources */,
 				09A6EA501EFD7ADA008BFCBB /* DC_background.jpg in Resources */,
 				09026BD31ED3C1AD0047EEFF /* slash_full.png in Resources */,
+				09F1C3B11F192974006AF825 /* c.jpg in Resources */,
 				095D89FF1ED3E4D900C18B4C /* id_card.png in Resources */,
 				09887E3D1EFAE110002D3FDC /* thor_general.jpg in Resources */,
 				09A6EA411EFD7ADA008BFCBB /* NCIS_background.jpg in Resources */,
