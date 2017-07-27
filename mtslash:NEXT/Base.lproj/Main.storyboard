@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yNl-wp-vbK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F0B-Yb-huR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1125,13 +1125,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slash_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="ICG-y0-KCh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slash_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="ICG-y0-KCh">
                                 <rect key="frame" x="16" y="20" width="85" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="8VZ-6y-63S"/>
+                                    <constraint firstAttribute="height" constant="85" id="gBO-DE-ns7"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-br-m08">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sample User Account Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-br-m08">
                                 <rect key="frame" x="329" y="25" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="37i-Wy-Ivw"/>
+                                    <constraint firstAttribute="height" constant="30" id="ga2-IL-21g"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1139,9 +1145,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-bK-ZDp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-bK-ZDp">
                                 <rect key="frame" x="284" y="25" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="9Rg-JE-1vz"/>
+                                    <constraint firstAttribute="height" constant="30" id="nvt-PJ-aLM"/>
+                                </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="Back"/>
                             </button>
@@ -1154,51 +1163,249 @@
                                 <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="输入一个或多个关键词开始搜索。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecQ-0s-Qo7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="输入一个或多个关键词开始搜索。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecQ-0s-Qo7">
                                 <rect key="frame" x="16" y="242" width="240" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Joq-mu-AlP"/>
+                                    <constraint firstAttribute="width" constant="240" id="MXZ-hv-jFt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="搜索历史" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7Q-Ri-8Ya">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索历史" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7Q-Ri-8Ya">
                                 <rect key="frame" x="16" y="322" width="73" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="cwW-Wo-i1Q"/>
+                                    <constraint firstAttribute="height" constant="26" id="mP7-0l-hfO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="18"/>
                                 <color key="textColor" red="0.76794596640000001" green="0.082445496009999994" blue="0.10401805879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="没有最近的搜索记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2k-6k-Ds0">
-                                <rect key="frame" x="16" y="356" width="216" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="24"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="确认于2017/6/20 22:10:32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLf-ol-YdV">
-                                <rect key="frame" x="16" y="385" width="202" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="54" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vv5-HO-WxA">
+                                <rect key="frame" x="0.0" y="356" width="375" height="311"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchHistoryEntryTableViewCell" id="Mtn-Kh-JgI">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mtn-Kh-JgI" id="vxi-d1-m03">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前没有可用的搜索历史。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5A-2L-yHj">
+                                                    <rect key="frame" x="16" y="8" width="204" height="24"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="确认于2017/07/17 19:05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giM-Uf-zVg">
+                                                    <rect key="frame" x="16" y="31" width="133" height="17"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Light" family="PingFang SC" pointSize="12"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="c5A-2L-yHj" firstAttribute="leading" secondItem="vxi-d1-m03" secondAttribute="leadingMargin" constant="8" id="HWX-0X-SLi"/>
+                                                <constraint firstItem="giM-Uf-zVg" firstAttribute="leading" secondItem="vxi-d1-m03" secondAttribute="leading" constant="16" id="IPd-di-ZpU"/>
+                                                <constraint firstItem="c5A-2L-yHj" firstAttribute="top" secondItem="vxi-d1-m03" secondAttribute="topMargin" id="SQY-0X-fI0"/>
+                                                <constraint firstAttribute="bottom" secondItem="giM-Uf-zVg" secondAttribute="bottom" constant="6" id="vg0-eP-xhB"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="s9C-gP-ISu" id="4TL-pu-erK"/>
+                                    <outlet property="delegate" destination="s9C-gP-ISu" id="Ev8-74-ZdF"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AyK-mC-3WV" firstAttribute="trailing" secondItem="ZS2-Ei-LFD" secondAttribute="trailingMargin" id="0cs-7T-TQb"/>
+                            <constraint firstItem="ecQ-0s-Qo7" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="222" id="2P2-6Z-Nkz"/>
+                            <constraint firstItem="ecQ-0s-Qo7" firstAttribute="leading" secondItem="ZS2-Ei-LFD" secondAttribute="leadingMargin" id="8dP-tH-qoZ"/>
+                            <constraint firstAttribute="trailing" secondItem="vv5-HO-WxA" secondAttribute="trailing" id="DsS-lX-FjH"/>
                             <constraint firstItem="AyK-mC-3WV" firstAttribute="leading" secondItem="ZS2-Ei-LFD" secondAttribute="leadingMargin" id="OnU-s1-RDR"/>
+                            <constraint firstItem="Pif-br-m08" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="5" id="QKb-6c-Biy"/>
+                            <constraint firstItem="L7Q-Ri-8Ya" firstAttribute="leading" secondItem="ZS2-Ei-LFD" secondAttribute="leadingMargin" id="TOQ-bm-SvU"/>
+                            <constraint firstItem="ICG-y0-KCh" firstAttribute="leading" secondItem="ZS2-Ei-LFD" secondAttribute="leadingMargin" id="VuF-uf-AFX"/>
+                            <constraint firstItem="P8J-gu-9ND" firstAttribute="top" secondItem="vv5-HO-WxA" secondAttribute="bottom" id="ZP9-8L-rV5"/>
+                            <constraint firstItem="Vd5-bK-ZDp" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="5" id="fdp-WL-bae"/>
+                            <constraint firstItem="vv5-HO-WxA" firstAttribute="leading" secondItem="ZS2-Ei-LFD" secondAttribute="leading" id="iA6-50-2aj"/>
+                            <constraint firstItem="ICG-y0-KCh" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" id="oO6-Wc-oIk"/>
+                            <constraint firstItem="L7Q-Ri-8Ya" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="302" id="qgR-W9-oEa"/>
                             <constraint firstItem="AyK-mC-3WV" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="234" id="uCc-mn-jBg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vd5-bK-ZDp" secondAttribute="trailing" constant="45" id="xjD-5q-br5"/>
+                            <constraint firstItem="Pif-br-m08" firstAttribute="trailing" secondItem="ZS2-Ei-LFD" secondAttribute="trailingMargin" id="zCj-VC-L4E"/>
+                            <constraint firstItem="vv5-HO-WxA" firstAttribute="top" secondItem="TXs-Zo-a4f" secondAttribute="bottom" constant="336" id="zOS-z9-nA0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="Vd5-bK-ZDp" id="utv-NS-XRo"/>
+                        <outlet property="logoImageView" destination="ICG-y0-KCh" id="7Wy-Mk-nXz"/>
+                        <outlet property="profileImageView" destination="Pif-br-m08" id="nIg-Jc-Vif"/>
+                        <outlet property="searchHistoryLabel" destination="L7Q-Ri-8Ya" id="JMb-9Z-5wy"/>
+                        <outlet property="searchHistoryTableView" destination="vv5-HO-WxA" id="vQ0-8w-5rf"/>
+                        <outlet property="searchKeywordTextField" destination="AyK-mC-3WV" id="uvw-gW-VCN"/>
+                        <outlet property="searchPromptLabel" destination="ecQ-0s-Qo7" id="1R8-ln-N19"/>
+                        <segue destination="F0B-Yb-huR" kind="custom" identifier="fromSearchPageToHomepage" customClass="fromSearchPageToHomepage" customModule="mtslash_NEXT" customModuleProvider="target" id="ZYg-oE-flH"/>
+                        <segue destination="5zF-ac-VIx" kind="custom" identifier="fromSearchPageToSearchResultPage" customClass="fromSearchPageToSearchResultPage" customModule="mtslash_NEXT" customModuleProvider="target" id="gH0-Xg-nYl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aT5-cD-JIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3909.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Result Page View Controller-->
+        <scene sceneID="DHW-oI-LqC">
+            <objects>
+                <viewController id="5zF-ac-VIx" customClass="SearchResultPageViewController" customModule="mtslash_NEXT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y6b-sf-jiL"/>
+                        <viewControllerLayoutGuide type="bottom" id="GFU-d6-vt2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JU2-4N-5MD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU2-OI-fAj">
+                                <rect key="frame" x="16" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="Back"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slash_full.png" translatesAutoresizingMaskIntoConstraints="NO" id="EI9-6f-9Ic">
+                                <rect key="frame" x="16" y="191" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="搜索成功完成。返回了56项搜索结果。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foo-sY-Ja1">
+                                <rect key="frame" x="16" y="90" width="241" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="265" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="32Y-HV-Z7H">
+                                <rect key="frame" x="0.0" y="229" width="375" height="438"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchResultEntryTableViewCell" id="Yiv-sd-ck1" customClass="searchResultEntryTableViewCell" customModule="mtslash_NEXT" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="265"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yiv-sd-ck1" id="9cX-ON-96e">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="264.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Brightest Star on the Hill (Wesker/Chris) （8/18新增图片）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dk6-dc-MbI">
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="64"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="64" id="hOh-lJ-FxM"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6g9-mS-5Zp">
+                                                    <rect key="frame" x="0.0" y="22" width="6" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.078431372550000003" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生化危机" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPq-ft-2fT">
+                                                    <rect key="frame" x="16" y="62" width="60" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                                    <color key="textColor" red="0.86274509799999999" green="0.078431372550000003" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                            <integer key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                            <color key="value" red="0.87843137250000003" green="0.094117647060000004" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="浣熊市十二月的上空颜色选择不多，来来去去都是两个样子。不是铁锈色的阴霾，就是拥挤无间的灰云，广袤而没有边界，仿佛没洗好的棉被盖住城市头顶。云层太低，看上去随时会把屋顶压碎，在这种距离降下的雨也比平时更 ..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amN-Jr-gis">
+                                                    <rect key="frame" x="16" y="87" width="343" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTZ-Ia-Lfh">
+                                                    <rect key="frame" x="16" y="206" width="21" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                                    <color key="textColor" red="0.86274509799999999" green="0.078431372550000003" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="714" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-Hy-KFb">
+                                                    <rect key="frame" x="40" y="203" width="21" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="远子木 2015-8-16 22:59 发表于 MOVIE FANFIC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsi-2d-BEi">
+                                                    <rect key="frame" x="16" y="226" width="264" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Dk6-dc-MbI" firstAttribute="leading" secondItem="9cX-ON-96e" secondAttribute="leading" constant="16" id="MQU-6M-jlf"/>
+                                                <constraint firstAttribute="trailing" secondItem="Dk6-dc-MbI" secondAttribute="trailing" constant="16" id="f1c-33-0w0"/>
+                                                <constraint firstItem="Dk6-dc-MbI" firstAttribute="top" secondItem="9cX-ON-96e" secondAttribute="top" id="t50-kI-D8Z"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="additionalInfoLabel" destination="hsi-2d-BEi" id="aO3-my-kiD"/>
+                                            <outlet property="anchorPointView" destination="6g9-mS-5Zp" id="Sgx-iD-QfA"/>
+                                            <outlet property="previewTextLabel" destination="amN-Jr-gis" id="wIs-Im-iDO"/>
+                                            <outlet property="replyCountLabel" destination="RTZ-Ia-Lfh" id="may-p3-Gxe"/>
+                                            <outlet property="tagOneLabel" destination="WPq-ft-2fT" id="9Be-Lg-TZZ"/>
+                                            <outlet property="titleLabel" destination="Dk6-dc-MbI" id="MsJ-UT-Aaf"/>
+                                            <outlet property="viewCountLabel" destination="CQC-Hy-KFb" id="1ej-HI-HvF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wesker的搜索结果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-KN-phv">
+                                <rect key="frame" x="16" y="105" width="257" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="logoImageView" destination="EI9-6f-9Ic" id="UmE-hU-3DX"/>
+                        <outlet property="resultTableView" destination="32Y-HV-Z7H" id="dJB-d4-JCn"/>
+                        <outlet property="statusLabel" destination="foo-sY-Ja1" id="p1p-tn-TPX"/>
+                        <outlet property="titleLabel" destination="qIK-KN-phv" id="4Le-0y-Aqk"/>
+                        <segue destination="s9C-gP-ISu" kind="custom" identifier="fromSearchResultPageToSearchPage" customClass="fromSearchResultPageToSearchPage" customModule="mtslash_NEXT" customModuleProvider="target" id="DAn-hZ-ek8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sb2-fT-Xvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4736.8000000000002" y="138.98050974512745"/>
+        </scene>
+        <!--Thread Page View Controller-->
         <scene sceneID="9gZ-Fr-mgZ">
             <objects>
-                <viewController id="yNl-wp-vbK" sceneMemberID="viewController">
+                <viewController id="yNl-wp-vbK" customClass="ThreadPageViewController" customModule="mtslash_NEXT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="soU-VX-qVb"/>
                         <viewControllerLayoutGuide type="bottom" id="TTs-0w-Q27"/>
@@ -1350,7 +1557,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UYg-jD-kQw">
-                                                    <rect key="frame" x="0.0" y="14" width="6" height="56"/>
+                                                    <rect key="frame" x="0.0" y="28" width="6" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.86274509799999999" green="0.078431372550000003" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </view>
@@ -1521,6 +1728,7 @@
         <image name="username_input_page_background_st.jpg" width="976" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="DAn-hZ-ek8"/>
         <segue reference="FqN-wg-wiA"/>
     </inferredMetricsTieBreakers>
 </document>

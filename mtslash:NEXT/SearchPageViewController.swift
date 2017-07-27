@@ -10,14 +10,25 @@ import UIKit
 
 class SearchPageViewController: UIViewController {
 
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var searchPromptLabel: UILabel!
+    @IBOutlet weak var searchKeywordTextField: UITextField!
+    @IBOutlet weak var searchHistoryLabel: UILabel!
+    @IBOutlet weak var searchHistoryTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Set target action for backButton
+        backButton.addTarget(self, action: #selector(backButtonPressed(sender:)), for: .touchUpInside)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 }

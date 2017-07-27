@@ -77,6 +77,9 @@
 		09887E541EFBDD7C002D3FDC /* SlidingMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09887E531EFBDD7C002D3FDC /* SlidingMenuButton.swift */; };
 		09887E561EFBE23F002D3FDC /* slidingMenuItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 09887E551EFBE23F002D3FDC /* slidingMenuItems.json */; };
 		09887E581EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09887E571EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift */; };
+		0994699D1F2A5AE800F5B50D /* fromSearchPageToSearchResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994699C1F2A5AE800F5B50D /* fromSearchPageToSearchResultPage.swift */; };
+		0994699F1F2A5B4300F5B50D /* fromSearchResultPageToSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994699E1F2A5B4300F5B50D /* fromSearchResultPageToSearchPage.swift */; };
+		099469A41F2A5CF400F5B50D /* searchResultEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099469A31F2A5CF400F5B50D /* searchResultEntryTableViewCell.swift */; };
 		09A6EA331EFD7ADA008BFCBB /* star_wars_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */; };
 		09A6EA341EFD7ADA008BFCBB /* WOW_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA131EFD7ADA008BFCBB /* WOW_background.jpg */; };
 		09A6EA351EFD7ADA008BFCBB /* the_flash_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A6EA141EFD7ADA008BFCBB /* the_flash_background.jpg */; };
@@ -137,8 +140,13 @@
 		09F1C3A61F18B3B1006AF825 /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */; };
 		09F1C3A81F18B423006AF825 /* fromHomepageToSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */; };
 		09F1C3AD1F18B585006AF825 /* HomepageViewControllerExtD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */; };
-		09F1C3B11F192974006AF825 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09F1C3B01F192974006AF825 /* c.jpg */; };
 		09F1C3B51F1A6BBC006AF825 /* movie_fanfic_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */; };
+		09F1C3B71F1A819B006AF825 /* ThreadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3B61F1A819B006AF825 /* ThreadPageViewController.swift */; };
+		09F1C3B91F1A81D8006AF825 /* SearchResultPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3B81F1A81D8006AF825 /* SearchResultPageViewController.swift */; };
+		09F1C3BB1F1D1C9A006AF825 /* fromSearchPageToHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3BA1F1D1C9A006AF825 /* fromSearchPageToHomepage.swift */; };
+		09F1C3BE1F1D1FA7006AF825 /* SearchPageViewControllerExtA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3BD1F1D1FA7006AF825 /* SearchPageViewControllerExtA.swift */; };
+		09F1C3C01F1D21BE006AF825 /* SearchPageViewControllerExtB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3BF1F1D21BE006AF825 /* SearchPageViewControllerExtB.swift */; };
+		09F1C3C21F1D2E01006AF825 /* SearchPageViewControllerExtC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1C3C11F1D2E01006AF825 /* SearchPageViewControllerExtC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +232,9 @@
 		09887E531EFBDD7C002D3FDC /* SlidingMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuButton.swift; sourceTree = "<group>"; };
 		09887E551EFBE23F002D3FDC /* slidingMenuItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = slidingMenuItems.json; sourceTree = "<group>"; };
 		09887E571EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewControllerExtB.swift; sourceTree = "<group>"; };
+		0994699C1F2A5AE800F5B50D /* fromSearchPageToSearchResultPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromSearchPageToSearchResultPage.swift; sourceTree = "<group>"; };
+		0994699E1F2A5B4300F5B50D /* fromSearchResultPageToSearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromSearchResultPageToSearchPage.swift; sourceTree = "<group>"; };
+		099469A31F2A5CF400F5B50D /* searchResultEntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchResultEntryTableViewCell.swift; sourceTree = "<group>"; };
 		09A6EA121EFD7ADA008BFCBB /* star_wars_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star_wars_background.jpg; sourceTree = "<group>"; };
 		09A6EA131EFD7ADA008BFCBB /* WOW_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WOW_background.jpg; sourceTree = "<group>"; };
 		09A6EA141EFD7ADA008BFCBB /* the_flash_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_flash_background.jpg; sourceTree = "<group>"; };
@@ -286,8 +297,13 @@
 		09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
 		09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromHomepageToSearchPage.swift; sourceTree = "<group>"; };
 		09F1C3AC1F18B585006AF825 /* HomepageViewControllerExtD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewControllerExtD.swift; sourceTree = "<group>"; };
-		09F1C3B01F192974006AF825 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
 		09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie_fanfic_background.jpg; sourceTree = "<group>"; };
+		09F1C3B61F1A819B006AF825 /* ThreadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadPageViewController.swift; sourceTree = "<group>"; };
+		09F1C3B81F1A81D8006AF825 /* SearchResultPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultPageViewController.swift; sourceTree = "<group>"; };
+		09F1C3BA1F1D1C9A006AF825 /* fromSearchPageToHomepage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fromSearchPageToHomepage.swift; sourceTree = "<group>"; };
+		09F1C3BD1F1D1FA7006AF825 /* SearchPageViewControllerExtA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewControllerExtA.swift; sourceTree = "<group>"; };
+		09F1C3BF1F1D21BE006AF825 /* SearchPageViewControllerExtB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewControllerExtB.swift; sourceTree = "<group>"; };
+		09F1C3C11F1D2E01006AF825 /* SearchPageViewControllerExtC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewControllerExtC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,7 +345,6 @@
 		09026BBB1ED3A4FE0047EEFF /* mtslash:NEXT */ = {
 			isa = PBXGroup;
 			children = (
-				09F1C3B01F192974006AF825 /* c.jpg */,
 				09026BC01ED3A4FE0047EEFF /* Main.storyboard */,
 				09BA48C21F02899A009CA04A /* Models */,
 				09C02C331EF585BE00CF111F /* Data */,
@@ -381,6 +396,9 @@
 				091174741ED523E3009052A7 /* fromPasswordInputPageToUsernameInputPage.swift */,
 				09C02C4F1EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift */,
 				09F1C3A71F18B423006AF825 /* fromHomepageToSearchPage.swift */,
+				09F1C3BA1F1D1C9A006AF825 /* fromSearchPageToHomepage.swift */,
+				0994699C1F2A5AE800F5B50D /* fromSearchPageToSearchResultPage.swift */,
+				0994699E1F2A5B4300F5B50D /* fromSearchResultPageToSearchPage.swift */,
 			);
 			name = "Custom Segues";
 			sourceTree = "<group>";
@@ -453,6 +471,23 @@
 				09BA48B21F00EB14009CA04A /* SpotlightPanelCollectionViewCell.swift */,
 				09BA48B41F00F251009CA04A /* SectionDetailView.swift */,
 				09BA48B81F02659F009CA04A /* SpotlightDetailView.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		099469A01F2A5C9E00F5B50D /* Search Result Page */ = {
+			isa = PBXGroup;
+			children = (
+				099469A11F2A5CB100F5B50D /* Custom Views */,
+				09F1C3B81F1A81D8006AF825 /* SearchResultPageViewController.swift */,
+			);
+			name = "Search Result Page";
+			sourceTree = "<group>";
+		};
+		099469A11F2A5CB100F5B50D /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				099469A31F2A5CF400F5B50D /* searchResultEntryTableViewCell.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -587,9 +622,11 @@
 		09F1C3A91F18B456006AF825 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */,
+				09F1C3BC1F1D1F8B006AF825 /* SearchPage */,
 				09C02C521EF7ACD800CF111F /* Homepage */,
 				09C02C441EF7755A00CF111F /* Startup Pages */,
+				09F1C3B61F1A819B006AF825 /* ThreadPageViewController.swift */,
+				099469A01F2A5C9E00F5B50D /* Search Result Page */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -600,6 +637,17 @@
 				09F1C3B41F1A6BBC006AF825 /* movie_fanfic_background.jpg */,
 			);
 			name = "Section Backgrounds";
+			sourceTree = "<group>";
+		};
+		09F1C3BC1F1D1F8B006AF825 /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				09F1C3A51F18B3B1006AF825 /* SearchPageViewController.swift */,
+				09F1C3BD1F1D1FA7006AF825 /* SearchPageViewControllerExtA.swift */,
+				09F1C3BF1F1D21BE006AF825 /* SearchPageViewControllerExtB.swift */,
+				09F1C3C11F1D2E01006AF825 /* SearchPageViewControllerExtC.swift */,
+			);
+			name = SearchPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,7 +795,6 @@
 				09887E251EFAE110002D3FDC /* sherlock_holmes_movie_panel.jpg in Resources */,
 				09A6EA501EFD7ADA008BFCBB /* DC_background.jpg in Resources */,
 				09026BD31ED3C1AD0047EEFF /* slash_full.png in Resources */,
-				09F1C3B11F192974006AF825 /* c.jpg in Resources */,
 				095D89FF1ED3E4D900C18B4C /* id_card.png in Resources */,
 				09887E3D1EFAE110002D3FDC /* thor_general.jpg in Resources */,
 				09A6EA411EFD7ADA008BFCBB /* NCIS_background.jpg in Resources */,
@@ -807,8 +854,11 @@
 				095D8A061ED3F67B00C18B4C /* PasswordInputPageViewController.swift in Sources */,
 				09BA48BF1F028979009CA04A /* SpotlightItem.swift in Sources */,
 				09F1C3A61F18B3B1006AF825 /* SearchPageViewController.swift in Sources */,
+				09F1C3BB1F1D1C9A006AF825 /* fromSearchPageToHomepage.swift in Sources */,
 				09F1C3AD1F18B585006AF825 /* HomepageViewControllerExtD.swift in Sources */,
 				09BA48B91F02659F009CA04A /* SpotlightDetailView.swift in Sources */,
+				09F1C3C01F1D21BE006AF825 /* SearchPageViewControllerExtB.swift in Sources */,
+				09F1C3B71F1A819B006AF825 /* ThreadPageViewController.swift in Sources */,
 				09BA48B31F00EB14009CA04A /* SpotlightPanelCollectionViewCell.swift in Sources */,
 				091174731ED519A2009052A7 /* DocumentViewerHelper.swift in Sources */,
 				091174751ED523E3009052A7 /* fromPasswordInputPageToUsernameInputPage.swift in Sources */,
@@ -821,18 +871,24 @@
 				09BA48AF1F00E7D6009CA04A /* HomepageViewControllerExtC.swift in Sources */,
 				09BA48B51F00F251009CA04A /* SectionDetailView.swift in Sources */,
 				09887E491EFAF498002D3FDC /* HomepageBackgroundImageHandler.swift in Sources */,
+				09F1C3C21F1D2E01006AF825 /* SearchPageViewControllerExtC.swift in Sources */,
+				0994699F1F2A5B4300F5B50D /* fromSearchResultPageToSearchPage.swift in Sources */,
 				09026BBF1ED3A4FE0047EEFF /* CoverPageViewController.swift in Sources */,
 				09026BC51ED3A4FE0047EEFF /* mtslash_NEXT.xcdatamodeld in Sources */,
 				09887E471EFAF3C7002D3FDC /* SlidingMenuHandler.swift in Sources */,
 				09F1C3A81F18B423006AF825 /* fromHomepageToSearchPage.swift in Sources */,
+				09F1C3BE1F1D1FA7006AF825 /* SearchPageViewControllerExtA.swift in Sources */,
 				09887E521EFBC4B7002D3FDC /* HomepageViewControllerExtA.swift in Sources */,
 				09026BBD1ED3A4FE0047EEFF /* AppDelegate.swift in Sources */,
 				095D8A0A1ED4C3B700C18B4C /* fromUsernameInputPageToPasswordInputPage.swift in Sources */,
 				09887E581EFC0DA6002D3FDC /* HomepageViewControllerExtB.swift in Sources */,
 				09F1C3A41F1619B4006AF825 /* SectionDetailViewHandler.swift in Sources */,
 				09C02C431EF6BFF900CF111F /* ResponseHelper.swift in Sources */,
+				099469A41F2A5CF400F5B50D /* searchResultEntryTableViewCell.swift in Sources */,
 				095D8A0C1ED4D3A700C18B4C /* WebDocumentPageViewController.swift in Sources */,
 				09C02C501EF79FB200CF111F /* fromPasswordInputPageToAuthenticationCompletedPage.swift in Sources */,
+				09F1C3B91F1A81D8006AF825 /* SearchResultPageViewController.swift in Sources */,
+				0994699D1F2A5AE800F5B50D /* fromSearchPageToSearchResultPage.swift in Sources */,
 				09BA48C11F028985009CA04A /* SpotlightItemType.swift in Sources */,
 				09C02C461EF7763800CF111F /* AuthenticationCompletedPageViewController.swift in Sources */,
 			);

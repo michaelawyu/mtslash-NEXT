@@ -27,6 +27,9 @@ class HomepageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Reset sliding menu
+        SlidingMenuHandler.activeSlidingMenuHandler.reset()
+        
         // Collect and update all the slidingMenuButtons
         collectSlidingMenuButtons()
         updateSlidingMenuButtons()
